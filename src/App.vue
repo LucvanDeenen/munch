@@ -13,3 +13,10 @@ export default defineComponent({
   name: 'App',
 })
 </script>
+
+<style>
+h1, h2 {
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+</style>

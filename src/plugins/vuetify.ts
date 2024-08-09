@@ -45,6 +45,10 @@ export default createVuetify({
   },
 
   defaults: {
+    VTextField: {
+      color: 'primary',
+      variant: 'outlined'
+    },
     VBtn: {
       style: 'margin-bottom: 0.5rem;',
       color: 'primary',
