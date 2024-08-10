@@ -8,11 +8,11 @@
     </v-section>
 
     <v-section id="section-ingredients">
-      <ingredient-section :selected-ingredients.sync="selectedIngredients"></ingredient-section>
+      <ingredient-section></ingredient-section>
     </v-section>
 
     <v-section id="section-menu">
-      <meal-section :selected-ingredients="selectedIngredients"></meal-section>
+      <meal-section></meal-section>
     </v-section>
 
     <v-section id="section-recipe">
@@ -39,11 +39,6 @@ export default defineComponent({
     MealSection,
     RecipeSection,
     BackButton
-  },
-  data() {
-    return {
-      selectedIngredients: [] as any[],
-    };
   }
 });
 </script>

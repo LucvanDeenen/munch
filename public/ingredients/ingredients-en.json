@@ -277,10 +277,6 @@
     },
     {
         "type": "condiment",
-        "name": "soy sauce"
-    },
-    {
-        "type": "condiment",
         "name": "mayonnaise"
     },
     {
@@ -338,42 +334,6 @@
     {
         "type": "nut",
         "name": "macadamia"
-    },
-    {
-        "type": "beverage",
-        "name": "water"
-    },
-    {
-        "type": "beverage",
-        "name": "coffee"
-    },
-    {
-        "type": "beverage",
-        "name": "tea"
-    },
-    {
-        "type": "beverage",
-        "name": "orange juice"
-    },
-    {
-        "type": "beverage",
-        "name": "wine"
-    },
-    {
-        "type": "beverage",
-        "name": "beer"
-    },
-    {
-        "type": "beverage",
-        "name": "soda"
-    },
-    {
-        "type": "beverage",
-        "name": "milkshake"
-    },
-    {
-        "type": "beverage",
-        "name": "smoothie"
     },
     {
         "type": "herb",

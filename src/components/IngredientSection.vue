@@ -7,7 +7,8 @@
       </v-icon>
     </h1>
 
-    <v-card class="my-5 pa-3">
+    <v-card class="mb-5 pa-3">
+
       <div class="d-flex" id="header">
         <v-text-field prepend-inner-icon="mdi-magnify" v-model="filter" placeholder="e.g. ''tomato''"></v-text-field>
         <v-btn class="ml-2" variant="tonal" style="height: 40px; min-width: 40px; width: 40px;" disabled>
@@ -17,20 +18,32 @@
         </v-btn>
       </div>
 
+      <div class="mb-4" :style="{ width: '100%', overflowX: 'auto' }">
+        <!-- ONLY SHOW SINGLE LINE -> Add expand button to view all -->
+        <v-chip class="ma-1" @click:close="onSelect(ingredient)" closable v-for="(ingredient, key) in selected"
+          :key="key">
+          {{ ingredient.name }}
+        </v-chip>
+      </div>
+
       <v-divider class="mx-0"></v-divider>
 
-      <v-container class="overflow-y-auto px-2 py-6" id="content">
+      <v-container class="overflow-y-auto px-2 py-5" id="content">
         <div v-for="(ingredients, foodType) in groupedFilteredIngredients" :key="foodType" class="pb-2">
-          <div class="d-flex justify-space-between">
+          <div class="d-flex justify-space-between"
+            @click="onCollapse(foodType.toString())">
             <h2>
               {{ foodType }}
             </h2>
-            <v-icon class="expandable" @click=""> mdi-chevron-down </v-icon>
+            <v-icon class="transition-transform" :class="{ 'rotate': collapse.includes(foodType.toString()) }">
+              mdi-chevron-down
+            </v-icon>
           </div>
+
           <v-divider class="mb-3"></v-divider>
 
           <v-expand-transition>
-            <div v-show="true">
+            <div v-show="!collapse.includes(foodType.toString())">
               <v-btn class="mr-1" v-for="ingredient in ingredients" :key="ingredient.id" @click="onSelect(ingredient)"
                 :variant="selected.includes(ingredient) ? 'tonal' : 'outlined'">
                 {{ ingredient.name }}
@@ -51,16 +64,11 @@ import { scrollTo } from '../utils/navigation';
 
 export default defineComponent({
   name: 'IngredientSection',
-  props: {
-    selectedIngredients: {
-      type: Array,
-      required: true
-    }
-  },
   data() {
     return {
       filter: '' as string,
       selected: [] as any[],
+      collapse: [] as string[],
       ingredients: [] as any[]
     };
   },
@@ -90,12 +98,21 @@ export default defineComponent({
 
   methods: {
     scrollTo,
-    onSelect(ingredient: any) {
+    onSelect(ingredient: any): void {
       const index = this.selected.indexOf(ingredient);
       if (index === -1) {
         this.selected.push(ingredient);
       } else {
         this.selected.splice(index, 1);
+      }
+    },
+
+    onCollapse(type: string) {
+      const index = this.collapse.indexOf(type);
+      if (index === -1) {
+        this.collapse.push(type);
+      } else {
+        this.collapse.splice(index, 1);
       }
     },
 
@@ -116,5 +133,13 @@ export default defineComponent({
 <style>
 #content {
   max-height: 50vh;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+.transition-transform {
+  transition: transform 0.3s ease;
 }
 </style>

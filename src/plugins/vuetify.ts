@@ -48,11 +48,12 @@ export default createVuetify({
       style: [
         {
           display: 'flex',
-          padding: '2rem',
+          padding: '1rem',
           marginBottom: '1rem',
           alignContent: 'center',
           justifyContent: 'center',
-          height: '100vh'
+          height: 'auto',
+          maxHeight: '100vh'
         }
       ]
     },

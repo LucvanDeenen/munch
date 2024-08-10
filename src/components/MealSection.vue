@@ -40,13 +40,6 @@ import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: 'MealSection',
-  props: {
-    selectedIngredients: {
-      type: Array,
-      required: true
-    }
-  },
-  
   data() {
     return {
       filter: '' as string,

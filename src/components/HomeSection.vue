@@ -1,5 +1,5 @@
 <template>
-  <v-container class="d-flex justify-center align-center">
+  <v-container class="d-flex justify-center align-center h-screen">
     <div>
       <h1 class="my-0" style="font-size: 56px;">
         mu<span class="text-primary">nch</span>
