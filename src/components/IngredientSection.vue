@@ -18,14 +18,18 @@
       </div>
 
       <v-divider class="mx-0"></v-divider>
-      <v-container class="overflow-y-auto pa-4 options">
+      <v-container class="overflow-y-auto px-2 py-6 options">
+        {{ groupedFilteredIngredients }} 
         <div v-for="(ingredients, foodType) in groupedFilteredIngredients" :key="foodType" class="pb-2">
-          <div class="d-flex justify-space-between">
-            <h2>
-              {{ foodType }}
-            </h2>
-            <v-icon class="expandable" @click="collapse"> mdi-chevron-down </v-icon>
-          </div>
+          <v-expand-transition>
+            <div class="d-flex justify-space-between">
+              <h2>
+                {{ foodType }}
+              </h2>
+              <v-icon class="expandable" @click="collapse"> mdi-chevron-down </v-icon>
+            </div>
+          </v-expand-transition>
+
 
           <v-divider class="mb-3"></v-divider>
 
