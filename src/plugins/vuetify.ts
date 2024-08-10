@@ -40,14 +40,40 @@ export default createVuetify({
 
   aliases: {
     VBtnLarge: components.VBtn,
-    VBtnSecondary: components.VBtn,
-    VBtnTertiary: components.VBtn,
+    VSection: components.VContainer
   },
 
   defaults: {
+    VSection: {
+      style: [
+        {
+          display: 'flex',
+          padding: '2rem',
+          marginBottom: '1rem',
+          alignContent: 'center',
+          justifyContent: 'center',
+          height: '100vh'
+        }
+      ]
+    },
+    VContainer: {
+      style: [
+        {
+          height: 'auto',
+          maxWidth: '100%',
+          margin: 0,
+          padding: 0
+        }
+      ]
+    },
     VTextField: {
       color: 'primary',
+      density: 'compact',
       variant: 'outlined'
+    },
+    VCheckbox: {
+      style: 'textTransform: "capitalize";',
+      density: 'compact'
     },
     VBtn: {
       style: 'margin-bottom: 0.5rem;',
@@ -59,14 +85,6 @@ export default createVuetify({
       color: 'primary',
       size: 'x-large',
       variant: 'outlined',
-    },
-    VBtnSecondary: {
-      color: 'secondary',
-      variant: 'flat',
-    },
-    VBtnTertiary: {
-      rounded: true,
-      variant: 'plain',
-    },
+    }
   },
 })
