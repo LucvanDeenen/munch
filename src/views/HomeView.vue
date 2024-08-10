@@ -8,11 +8,15 @@
     </v-section>
 
     <v-section id="section-ingredients">
-      <ingredient-section></ingredient-section>
+      <ingredient-section :selected-ingredients.sync="selectedIngredients"></ingredient-section>
     </v-section>
 
     <v-section id="section-menu">
-      <menu-section></menu-section>
+      <meal-section :selected-ingredients="selectedIngredients"></meal-section>
+    </v-section>
+
+    <v-section id="section-recipe">
+      <recipe-section></recipe-section>
     </v-section>
 
   </v-container>
@@ -23,7 +27,8 @@ import { defineComponent } from 'vue';
 
 import HomeSection from '../components/HomeSection.vue';
 import IngredientSection from '../components/IngredientSection.vue';
-import MenuSection from '../components/MenuSection.vue';
+import MealSection from '../components/MealSection.vue';
+import RecipeSection from '../components/RecipeSection.vue';
 import BackButton from '../components/NavigationButton.vue';
 
 export default defineComponent({
@@ -31,8 +36,14 @@ export default defineComponent({
   components: {
     HomeSection,
     IngredientSection,
-    MenuSection,
+    MealSection,
+    RecipeSection,
     BackButton
+  },
+  data() {
+    return {
+      selectedIngredients: [] as any[],
+    };
   }
 });
 </script>

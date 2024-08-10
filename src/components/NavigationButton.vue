@@ -2,7 +2,7 @@
     <transition name="fade">
         <v-btn v-if="showScrollButton" color="primary" class="floating-btn" icon variant="tonal"
             @click="scrollTo('section-home')">
-            <v-icon>mdi-arrow-up-bold</v-icon>
+            <v-icon class="ma-0">mdi-arrow-up-bold</v-icon>
         </v-btn>
     </transition>
 </template>

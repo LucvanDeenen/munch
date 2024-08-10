@@ -2,8 +2,8 @@
   <v-container>
     <h1>
       Ingredients
-      <v-icon class="mb-3">
-        mdi-chef-hat
+      <v-icon class="mb-1 ml-4">
+        mdi-shaker-outline
       </v-icon>
     </h1>
 
@@ -30,7 +30,7 @@
           <v-divider class="mb-3"></v-divider>
 
           <v-expand-transition>
-            <div v-show="collapse">
+            <div v-show="true">
               <v-btn class="mr-1" v-for="ingredient in ingredients" :key="ingredient.id" @click="onSelect(ingredient)"
                 :variant="selected.includes(ingredient) ? 'tonal' : 'outlined'">
                 {{ ingredient.name }}
@@ -51,426 +51,24 @@ import { scrollTo } from '../utils/navigation';
 
 export default defineComponent({
   name: 'IngredientSection',
+  props: {
+    selectedIngredients: {
+      type: Array,
+      required: true
+    }
+  },
   data() {
     return {
       filter: '' as string,
       selected: [] as any[],
-      ingredients: [
-        {
-          "type": "vegetable",
-          "name": "carrot"
-        },
-        {
-          "type": "vegetable",
-          "name": "broccoli"
-        },
-        {
-          "type": "vegetable",
-          "name": "spinach"
-        },
-        {
-          "type": "vegetable",
-          "name": "potato"
-        },
-        {
-          "type": "vegetable",
-          "name": "tomato"
-        },
-        {
-          "type": "vegetable",
-          "name": "onion"
-        },
-        {
-          "type": "vegetable",
-          "name": "bell pepper"
-        },
-        {
-          "type": "vegetable",
-          "name": "garlic"
-        },
-        {
-          "type": "vegetable",
-          "name": "zucchini"
-        },
-        {
-          "type": "vegetable",
-          "name": "eggplant"
-        },
-        {
-          "type": "fruit",
-          "name": "apple"
-        },
-        {
-          "type": "fruit",
-          "name": "banana"
-        },
-        {
-          "type": "fruit",
-          "name": "orange"
-        },
-        {
-          "type": "fruit",
-          "name": "strawberry"
-        },
-        {
-          "type": "fruit",
-          "name": "grape"
-        },
-        {
-          "type": "fruit",
-          "name": "lemon"
-        },
-        {
-          "type": "fruit",
-          "name": "pineapple"
-        },
-        {
-          "type": "fruit",
-          "name": "blueberry"
-        },
-        {
-          "type": "fruit",
-          "name": "mango"
-        },
-        {
-          "type": "fruit",
-          "name": "peach"
-        },
-        {
-          "type": "meat",
-          "name": "chicken breast"
-        },
-        {
-          "type": "meat",
-          "name": "beef steak"
-        },
-        {
-          "type": "meat",
-          "name": "pork chop"
-        },
-        {
-          "type": "meat",
-          "name": "lamb"
-        },
-        {
-          "type": "meat",
-          "name": "bacon"
-        },
-        {
-          "type": "meat",
-          "name": "turkey"
-        },
-        {
-          "type": "meat",
-          "name": "sausage"
-        },
-        {
-          "type": "meat",
-          "name": "ham"
-        },
-        {
-          "type": "meat",
-          "name": "duck"
-        },
-        {
-          "type": "seafood",
-          "name": "salmon"
-        },
-        {
-          "type": "seafood",
-          "name": "shrimp"
-        },
-        {
-          "type": "seafood",
-          "name": "tuna"
-        },
-        {
-          "type": "seafood",
-          "name": "crab"
-        },
-        {
-          "type": "seafood",
-          "name": "lobster"
-        },
-        {
-          "type": "seafood",
-          "name": "mussels"
-        },
-        {
-          "type": "seafood",
-          "name": "oysters"
-        },
-        {
-          "type": "seafood",
-          "name": "scallops"
-        },
-        {
-          "type": "seafood",
-          "name": "cod"
-        },
-        {
-          "type": "dairy",
-          "name": "milk"
-        },
-        {
-          "type": "dairy",
-          "name": "cheddar cheese"
-        },
-        {
-          "type": "dairy",
-          "name": "butter"
-        },
-        {
-          "type": "dairy",
-          "name": "yogurt"
-        },
-        {
-          "type": "dairy",
-          "name": "cream"
-        },
-        {
-          "type": "dairy",
-          "name": "parmesan cheese"
-        },
-        {
-          "type": "dairy",
-          "name": "mozzarella"
-        },
-        {
-          "type": "dairy",
-          "name": "sour cream"
-        },
-        {
-          "type": "dairy",
-          "name": "ice cream"
-        },
-        {
-          "type": "grain",
-          "name": "rice"
-        },
-        {
-          "type": "grain",
-          "name": "pasta"
-        },
-        {
-          "type": "grain",
-          "name": "bread"
-        },
-        {
-          "type": "grain",
-          "name": "quinoa"
-        },
-        {
-          "type": "grain",
-          "name": "oats"
-        },
-        {
-          "type": "grain",
-          "name": "barley"
-        },
-        {
-          "type": "grain",
-          "name": "cornmeal"
-        },
-        {
-          "type": "grain",
-          "name": "bulgur"
-        },
-        {
-          "type": "grain",
-          "name": "couscous"
-        },
-        {
-          "type": "spice",
-          "name": "salt"
-        },
-        {
-          "type": "spice",
-          "name": "black pepper"
-        },
-        {
-          "type": "spice",
-          "name": "cinnamon"
-        },
-        {
-          "type": "spice",
-          "name": "cumin"
-        },
-        {
-          "type": "spice",
-          "name": "turmeric"
-        },
-        {
-          "type": "spice",
-          "name": "paprika"
-        },
-        {
-          "type": "spice",
-          "name": "nutmeg"
-        },
-        {
-          "type": "spice",
-          "name": "oregano"
-        },
-        {
-          "type": "spice",
-          "name": "thyme"
-        },
-        {
-          "type": "spice",
-          "name": "ginger"
-        },
-        {
-          "type": "spice",
-          "name": "basil"
-        },
-        {
-          "type": "condiment",
-          "name": "ketchup"
-        },
-        {
-          "type": "condiment",
-          "name": "mustard"
-        },
-        {
-          "type": "condiment",
-          "name": "soy sauce"
-        },
-        {
-          "type": "condiment",
-          "name": "mayonnaise"
-        },
-        {
-          "type": "condiment",
-          "name": "vinegar"
-        },
-        {
-          "type": "condiment",
-          "name": "hot sauce"
-        },
-        {
-          "type": "condiment",
-          "name": "honey"
-        },
-        {
-          "type": "condiment",
-          "name": "barbecue sauce"
-        },
-        {
-          "type": "condiment",
-          "name": "pesto"
-        },
-        {
-          "type": "condiment",
-          "name": "soy sauce"
-        },
-        {
-          "type": "nut",
-          "name": "almond"
-        },
-        {
-          "type": "nut",
-          "name": "peanut"
-        },
-        {
-          "type": "nut",
-          "name": "walnut"
-        },
-        {
-          "type": "nut",
-          "name": "cashew"
-        },
-        {
-          "type": "nut",
-          "name": "pecan"
-        },
-        {
-          "type": "nut",
-          "name": "hazelnut"
-        },
-        {
-          "type": "nut",
-          "name": "pistachio"
-        },
-        {
-          "type": "nut",
-          "name": "macadamia"
-        },
-        {
-          "type": "beverage",
-          "name": "water"
-        },
-        {
-          "type": "beverage",
-          "name": "coffee"
-        },
-        {
-          "type": "beverage",
-          "name": "tea"
-        },
-        {
-          "type": "beverage",
-          "name": "orange juice"
-        },
-        {
-          "type": "beverage",
-          "name": "wine"
-        },
-        {
-          "type": "beverage",
-          "name": "beer"
-        },
-        {
-          "type": "beverage",
-          "name": "soda"
-        },
-        {
-          "type": "beverage",
-          "name": "milkshake"
-        },
-        {
-          "type": "beverage",
-          "name": "smoothie"
-        },
-        {
-          "type": "herb",
-          "name": "cilantro"
-        },
-        {
-          "type": "herb",
-          "name": "parsley"
-        },
-        {
-          "type": "herb",
-          "name": "mint"
-        },
-        {
-          "type": "herb",
-          "name": "rosemary"
-        },
-        {
-          "type": "herb",
-          "name": "dill"
-        },
-        {
-          "type": "herb",
-          "name": "sage"
-        },
-        {
-          "type": "herb",
-          "name": "chives"
-        },
-        {
-          "type": "herb",
-          "name": "tarragon"
-        },
-        {
-          "type": "herb",
-          "name": "oregano"
-        }
-      ] as any[]
+      ingredients: [] as any[]
     };
   },
+
+  mounted() {
+    this.fetchIngredients();
+  },
+
   computed: {
     filteredIngredients() {
       const filterLower = this.filter.toLowerCase();
@@ -501,7 +99,15 @@ export default defineComponent({
       }
     },
 
-    collapse() {
+    // MOVE THIS TO A UTIL CLASS
+    async fetchIngredients() {
+      try {
+        const response = await fetch('/ingredients/ingredients-en.json');
+        const data = await response.json();
+        this.ingredients = data;
+      } catch (error) {
+        console.error('Failed to load ingredients:', error);
+      }
     }
   }
 });
