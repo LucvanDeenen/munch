@@ -7,13 +7,9 @@
       <home-section></home-section>
     </v-section>
 
-    <v-divider class="mx-12"></v-divider>
-
     <v-section id="section-ingredients">
       <ingredient-section></ingredient-section>
     </v-section>
-
-    <v-divider class="mx-12"></v-divider>
 
     <v-section id="section-menu">
       <menu-section></menu-section>

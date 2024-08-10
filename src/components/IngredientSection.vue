@@ -8,7 +8,7 @@
     </h1>
 
     <v-card class="my-5 pa-3">
-      <div class="d-flex">
+      <div class="d-flex" id="header">
         <v-text-field prepend-inner-icon="mdi-magnify" v-model="filter" placeholder="e.g. ''tomato''"></v-text-field>
         <v-btn class="ml-2" variant="tonal" style="height: 40px; min-width: 40px; width: 40px;" disabled>
           <v-icon>
@@ -18,19 +18,15 @@
       </div>
 
       <v-divider class="mx-0"></v-divider>
-      <v-container class="overflow-y-auto px-2 py-6 options">
-        {{ groupedFilteredIngredients }} 
+
+      <v-container class="overflow-y-auto px-2 py-6" id="content">
         <div v-for="(ingredients, foodType) in groupedFilteredIngredients" :key="foodType" class="pb-2">
-          <v-expand-transition>
-            <div class="d-flex justify-space-between">
-              <h2>
-                {{ foodType }}
-              </h2>
-              <v-icon class="expandable" @click="collapse"> mdi-chevron-down </v-icon>
-            </div>
-          </v-expand-transition>
-
-
+          <div class="d-flex justify-space-between">
+            <h2>
+              {{ foodType }}
+            </h2>
+            <v-icon class="expandable" @click=""> mdi-chevron-down </v-icon>
+          </div>
           <v-divider class="mb-3"></v-divider>
 
           <v-expand-transition>
@@ -506,14 +502,13 @@ export default defineComponent({
     },
 
     collapse() {
-
     }
   }
 });
 </script>
 
 <style>
-.options {
+#content {
   max-height: 50vh;
 }
 </style>
