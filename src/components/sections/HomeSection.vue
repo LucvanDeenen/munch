@@ -16,7 +16,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import { scrollTo } from '../utils/navigation';
+import { scrollTo } from '@/utils/navigation';
 
 export default defineComponent({
   name: 'HomeSection',

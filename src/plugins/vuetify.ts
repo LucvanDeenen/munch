@@ -52,7 +52,7 @@ export default createVuetify({
           marginBottom: '1rem',
           alignContent: 'center',
           justifyContent: 'center',
-          height: 'auto',
+          height: '100vh',
           maxHeight: '100vh'
         }
       ]
@@ -64,6 +64,13 @@ export default createVuetify({
           maxWidth: '100%',
           margin: 0,
           padding: 0
+        }
+      ]
+    },
+    VChip: {
+      style: [
+        {
+          margin: '0.1rem',
         }
       ]
     },

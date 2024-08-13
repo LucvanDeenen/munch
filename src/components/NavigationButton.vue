@@ -1,7 +1,6 @@
 <template>
     <transition name="fade">
-        <v-btn v-if="showScrollButton" color="primary" class="floating-btn" icon variant="tonal"
-            @click="scrollTo('section-home')">
+        <v-btn v-if="showScrollButton" color="white" icon variant="plain" size="small" @click="scrollTo(target)">
             <v-icon class="ma-0">mdi-arrow-up-bold</v-icon>
         </v-btn>
     </transition>
@@ -9,13 +8,20 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import { scrollTo } from '../utils/navigation';
+import { scrollTo } from '@/utils/navigation';
 
 export default defineComponent({
     name: 'NavigationButton',
     data() {
         return {
             showScrollButton: false as boolean
+        }
+    },
+
+    props: {
+        target: {
+            type: String,
+            required: true
         }
     },
 
@@ -41,20 +47,13 @@ export default defineComponent({
 </script>
 
 <style scoped>
-.floating-btn {
-  position: fixed;
-  bottom: 16px;
-  right: 16px;
-  z-index: 1000;
-}
-
 .fade-enter-active,
 .fade-leave-active {
-  transition: opacity 0.5s;
+    transition: opacity 0.5s;
 }
 
 .fade-enter-from,
 .fade-leave-to {
-  opacity: 0;
+    opacity: 0;
 }
 </style>
