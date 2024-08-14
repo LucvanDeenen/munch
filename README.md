@@ -2,6 +2,10 @@
 
 Thank you for using Munch! We hope it makes your cooking journey delightful and fun. Happy cooking! 🍳
 
+## Roadmap
+- Add seasons
+- Add complexity
+
 ## Overview
 
 Munch is a website designed to help you decide what to cook today by allowing you to select your available ingredients and providing you with recipes accordingly. It leverages advanced tools and technologies to offer a seamless and user-friendly experience, ensuring you always have a delightful cooking journey.

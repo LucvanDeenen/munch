@@ -13,6 +13,11 @@ export default defineConfig({
       autoImport: true,
     }),
   ],
+  server: {
+    host: true,
+    port: 3000,
+    strictPort: true,
+  },
   define: { 'process.env': {} },
   resolve: {
     alias: {

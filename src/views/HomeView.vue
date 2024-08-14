@@ -1,5 +1,6 @@
 <template>
   <v-container>
+
     <v-section id="section-home">
       <home-section></home-section>
     </v-section>
@@ -15,6 +16,7 @@
     <v-section id="section-recipe">
       <recipe-section></recipe-section>
     </v-section>
+    
   </v-container>
 </template>
 

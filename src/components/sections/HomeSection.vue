@@ -4,7 +4,7 @@
       <h1 class="my-0" style="font-size: 56px;">
         mu<span class="text-primary">nch</span>
       </h1>
-      <v-btn-large @click="authenticate">
+      <v-btn-large @click="scrollTo('section-ingredients')">
         What can I eat?
         <template v-slot:append>
           <v-icon size="28px">mdi-silverware-clean</v-icon>
@@ -16,13 +16,11 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import { authenticate } from '@/utils/api';
 import { scrollTo } from '@/utils/navigation';
 
 export default defineComponent({
   name: 'HomeSection',
   methods: {
-    authenticate,
     scrollTo,
   }
 });

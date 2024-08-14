@@ -2,7 +2,7 @@
     <v-container class="d-flex justify-space-between">
         <h1 class="mt-1 ml-1">
             {{ title }}
-            <v-icon class="mb-1 ml-1">
+            <v-icon class="mb-2 ml-1">
                 {{ icon }}
             </v-icon>
         </h1>

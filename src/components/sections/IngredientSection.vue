@@ -4,8 +4,7 @@
 
     <v-card class="mb-5 pa-3" id="content">
       <!-- SPLIT UP INTO SEPARATE COMPONENTS -->
-      <div id="header" class="d-flex" :class="selected.length === 0 ? 'mb-2' : 'mb-1'">
-        <!-- TODO -->
+      <div id="header" class="d-flex mb-2">
         <v-text-field append-inner-icon="mdi-magnify" v-model="filter" placeholder="Search here..."
           :hint="handleToolTip()" @keydown.enter="selectFilteredIngredient" @keydown.tab="updateFilterIndex" />
 
@@ -16,13 +15,15 @@
             <!-- 2. TOGGLE DRINKS -->
             <!-- 3. TOGGLE FRUITS -->
             <!-- 4. TOGGLE COMPACT MODE (show selected in larger view) -->
-            <!-- 5. AUTO-COLLAPSE (collapse all types) -->
+            <!-- 5. TOGGLE TYPES (show selected in larger view) -->
+            <!-- 6. AUTO-COLLAPSE (collapse all types) -->
             mdi-cog
           </v-icon>
         </v-btn>
       </div>
 
 
+      <!-- REPLACE WITH PLAIN CSS -->
       <v-expand-transition>
         <div id="menu" v-if="selected.length > 0" class="mb-4" :style="{ width: '100%', overflowX: 'auto' }">
           <!-- ONLY SHOW SINGLE LINE -> Add expand button to view all -->
@@ -48,6 +49,7 @@
 
           <v-divider class="mb-3"></v-divider>
 
+          <!-- REPLACE WITH PLAIN CSS -->
           <v-expand-transition>
             <div v-show="!collapse.includes(foodType.toString())">
               <v-btn class="mr-1" v-for="ingredient in ingredients" :key="ingredient.id" @click="onSelect(ingredient)"

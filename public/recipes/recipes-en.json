@@ -1,1207 +1,3689 @@
 [
   {
-    "name": "Spaghetti Bolognese",
-    "ingredients": [
-      "Tomato",
-      "Spaghetti",
-      "Beef",
-      "Onion",
-      "Garlic",
-      "Olive oil"
-    ]
-  },
-  {
-    "name": "Chicken Caesar Salad",
-    "ingredients": [
-      "Chicken breast",
-      "Lettuce",
-      "Parmesan cheese",
-      "Croutons",
-      "Caesar dressing"
-    ]
-  },
-  {
     "name": "Vegetable Stir-Fry",
+    "description": "A colorful and nutritious stir-fry with a mix of fresh vegetables and a savory sauce.",
+    "steps": [
+      "Chop broccoli, bell pepper, carrot, and zucchini into bite-sized pieces.",
+      "Heat oil in a pan and add minced garlic.",
+      "Add the chopped vegetables and stir-fry for 5-7 minutes.",
+      "Season with soy sauce, salt, and black pepper.",
+      "Serve over rice."
+    ],
     "ingredients": [
       "Broccoli",
+      "Bell pepper",
       "Carrot",
-      "Bell pepper",
+      "Zucchini",
+      "Garlic",
       "Soy sauce",
-      "Garlic",
-      "Ginger"
-    ]
-  },
-  {
-    "name": "Margarita Pizza",
-    "ingredients": [
-      "Tomato",
-      "Mozzarella",
-      "Basil",
-      "Olive oil",
-      "Pizza dough"
-    ]
-  },
-  {
-    "name": "Beef Tacos",
-    "ingredients": [
-      "Beef",
-      "Taco shells",
-      "Onion",
-      "Lettuce",
-      "Cheddar cheese",
-      "Tomato"
-    ]
-  },
-  {
-    "name": "Shrimp Scampi",
-    "ingredients": [
-      "Shrimp",
-      "Garlic",
-      "Butter",
-      "Lemon",
-      "Parsley",
-      "Spaghetti"
-    ]
-  },
-  {
-    "name": "Greek Salad",
-    "ingredients": [
-      "Tomato",
-      "Cucumber",
-      "Onion",
-      "Olives",
-      "Feta cheese",
-      "Olive oil"
-    ]
-  },
-  {
-    "name": "Apple Pie",
-    "ingredients": [
-      "Apple",
-      "Cinnamon",
-      "Sugar",
-      "Butter",
-      "Pie crust"
-    ]
-  },
-  {
-    "name": "Grilled Cheese Sandwich",
-    "ingredients": [
-      "Bread",
-      "Cheddar cheese",
-      "Butter"
-    ]
-  },
-  {
-    "name": "Quinoa Salad",
-    "ingredients": [
-      "Quinoa",
-      "Cucumber",
-      "Tomato",
-      "Olive oil",
-      "Lemon",
-      "Mint"
-    ]
-  },
-  {
-    "name": "Caprese Salad",
-    "ingredients": [
-      "Tomato",
-      "Mozzarella",
-      "Basil",
-      "Olive oil",
-      "Balsamic vinegar"
-    ]
-  },
-  {
-    "name": "BBQ Chicken Wings",
-    "ingredients": [
-      "Chicken wings",
-      "Barbecue sauce",
-      "Garlic",
-      "Black pepper"
-    ]
-  },
-  {
-    "name": "Pancakes",
-    "ingredients": [
-      "Flour",
-      "Milk",
-      "Egg",
-      "Butter",
-      "Sugar",
-      "Baking powder"
-    ]
-  },
-  {
-    "name": "Garlic Butter Salmon",
-    "ingredients": [
-      "Salmon",
-      "Garlic",
-      "Butter",
-      "Lemon",
-      "Parsley"
-    ]
-  },
-  {
-    "name": "Lamb Curry",
-    "ingredients": [
-      "Lamb",
-      "Onion",
-      "Garlic",
-      "Ginger",
-      "Cumin",
-      "Turmeric",
-      "Coriander"
-    ]
-  },
-  {
-    "name": "Chicken Alfredo Pasta",
-    "ingredients": [
-      "Chicken breast",
-      "Pasta",
-      "Cream",
-      "Parmesan cheese",
-      "Garlic",
-      "Butter"
-    ]
-  },
-  {
-    "name": "Stuffed Bell Peppers",
-    "ingredients": [
-      "Bell pepper",
-      "Beef",
       "Rice",
-      "Tomato",
-      "Onion",
-      "Cheddar cheese"
-    ]
-  },
-  {
-    "name": "Tomato Soup",
-    "ingredients": [
-      "Tomato",
-      "Onion",
-      "Garlic",
-      "Basil",
-      "Cream",
-      "Olive oil"
-    ]
-  },
-  {
-    "name": "Fruit Salad",
-    "ingredients": [
-      "Apple",
-      "Banana",
-      "Orange",
-      "Strawberry",
-      "Grapes",
-      "Blueberry"
-    ]
-  },
-  {
-    "name": "Beef and Broccoli Stir-Fry",
-    "ingredients": [
-      "Beef",
-      "Broccoli",
-      "Garlic",
-      "Soy sauce",
-      "Ginger",
-      "Rice"
-    ]
-  },
-  {
-    "name": "Mango Smoothie",
-    "ingredients": [
-      "Mango",
-      "Yogurt",
-      "Honey",
-      "Milk"
-    ]
-  },
-  {
-    "name": "Eggplant Parmesan",
-    "ingredients": [
-      "Eggplant",
-      "Tomato",
-      "Mozzarella",
-      "Parmesan cheese",
-      "Basil",
-      "Olive oil"
-    ]
-  },
-  {
-    "name": "Sausage and Pepper Sandwich",
-    "ingredients": [
-      "Sausage",
-      "Bell pepper",
-      "Onion",
-      "Bread",
-      "Olive oil"
-    ]
-  },
-  {
-    "name": "Pesto Pasta",
-    "ingredients": [
-      "Pasta",
-      "Basil",
-      "Pine nuts",
-      "Parmesan cheese",
-      "Olive oil",
-      "Garlic"
-    ]
-  },
-  {
-    "name": "Potato Gratin",
-    "ingredients": [
-      "Potato",
-      "Cream",
-      "Garlic",
-      "Parmesan cheese",
-      "Butter"
-    ]
-  },
-  {
-    "name": "Blueberry Muffins",
-    "ingredients": [
-      "Blueberry",
-      "Flour",
-      "Sugar",
-      "Butter",
-      "Egg",
-      "Milk"
-    ]
-  },
-  {
-    "name": "Turkey and Cranberry Sandwich",
-    "ingredients": [
-      "Turkey",
-      "Bread",
-      "Cranberry sauce",
-      "Lettuce",
-      "Mayonnaise"
-    ]
-  },
-  {
-    "name": "Spinach and Feta Omelette",
-    "ingredients": [
-      "Spinach",
-      "Feta cheese",
-      "Egg",
-      "Onion",
-      "Butter"
-    ]
-  },
-  {
-    "name": "Pumpkin Soup",
-    "ingredients": [
-      "Pumpkin",
-      "Onion",
-      "Garlic",
-      "Cream",
-      "Nutmeg",
-      "Olive oil"
-    ]
-  },
-  {
-    "name": "Chocolate Chip Cookies",
-    "ingredients": [
-      "Flour",
-      "Butter",
-      "Sugar",
-      "Egg",
-      "Chocolate chips",
-      "Vanilla extract"
-    ]
-  },
-  {
-    "name": "Lobster Bisque",
-    "ingredients": [
-      "Lobster",
-      "Onion",
-      "Garlic",
-      "Cream",
-      "Butter",
-      "Tomato"
-    ]
-  },
-  {
-    "name": "Almond Crusted Chicken",
-    "ingredients": [
-      "Chicken breast",
-      "Almond",
-      "Egg",
-      "Flour",
-      "Olive oil"
-    ]
-  },
-  {
-    "name": "Roast Duck with Orange Glaze",
-    "ingredients": [
-      "Duck",
-      "Orange",
-      "Garlic",
-      "Honey",
-      "Soy sauce",
-      "Thyme"
-    ]
-  },
-  {
-    "name": "Tuna Salad",
-    "ingredients": [
-      "Tuna",
-      "Lettuce",
-      "Tomato",
-      "Cucumber",
-      "Olives",
-      "Mayonnaise"
-    ]
-  },
-  {
-    "name": "Coconut Shrimp",
-    "ingredients": [
-      "Shrimp",
-      "Coconut",
-      "Egg",
-      "Flour",
-      "Breadcrumbs",
-      "Olive oil"
-    ]
-  },
-  {
-    "name": "Mussels in White Wine Sauce",
-    "ingredients": [
-      "Mussels",
-      "Garlic",
-      "Onion",
-      "White wine",
-      "Butter",
-      "Parsley"
-    ]
-  },
-  {
-    "name": "Crab Cakes",
-    "ingredients": [
-      "Crab",
-      "Bread crumbs",
-      "Egg",
-      "Mayonnaise",
-      "Mustard",
-      "Parsley"
-    ]
-  },
-  {
-    "name": "Roast Pork with Apples",
-    "ingredients": [
-      "Pork chop",
-      "Apple",
-      "Onion",
-      "Thyme",
-      "Butter"
-    ]
-  },
-  {
-    "name": "Spinach and Ricotta Cannelloni",
-    "ingredients": [
-      "Spinach",
-      "Ricotta cheese",
-      "Pasta",
-      "Tomato",
-      "Garlic",
-      "Parmesan cheese"
-    ]
-  },
-  {
-    "name": "Roast Lamb with Rosemary",
-    "ingredients": [
-      "Lamb",
-      "Rosemary",
-      "Garlic",
-      "Olive oil",
       "Salt",
       "Black pepper"
     ]
   },
   {
-    "name": "Creamy Potato Soup",
-    "ingredients": [
-      "Potato",
-      "Onion",
-      "Garlic",
-      "Cream",
-      "Butter",
-      "Thyme"
-    ]
-  },
-  {
-    "name": "Bacon and Egg Breakfast Burrito",
-    "ingredients": [
-      "Bacon",
-      "Egg",
-      "Cheddar cheese",
-      "Tortilla",
-      "Salsa"
-    ]
-  },
-  {
-    "name": "Orange Chicken",
+    "name": "Spinach and Feta Stuffed Chicken",
+    "description": "Chicken breasts stuffed with a mixture of spinach, feta cheese, and herbs, baked to perfection.",
+    "steps": [
+      "Preheat oven to 375°F (190°C).",
+      "Mix spinach, feta cheese, and chopped parsley in a bowl.",
+      "Cut a pocket into each chicken breast and stuff with the spinach mixture.",
+      "Season the outside of the chicken with salt, black pepper, and paprika.",
+      "Bake for 25-30 minutes until chicken is cooked through."
+    ],
     "ingredients": [
       "Chicken breast",
-      "Orange",
-      "Soy sauce",
-      "Garlic",
-      "Ginger",
-      "Honey"
-    ]
-  },
-  {
-    "name": "Walnut Brownies",
-    "ingredients": [
-      "Walnut",
-      "Chocolate",
-      "Flour",
-      "Butter",
-      "Egg",
-      "Sugar"
-    ]
-  },
-  {
-    "name": "Beef Stroganoff",
-    "ingredients": [
-      "Beef",
-      "Mushroom",
-      "Onion",
-      "Garlic",
-      "Cream",
-      "Butter"
-    ]
-  },
-  {
-    "name": "Chicken Noodle Soup",
-    "ingredients": [
-      "Chicken breast",
-      "Carrot",
-      "Celery",
-      "Onion",
-      "Garlic",
-      "Noodles"
-    ]
-  },
-  {
-    "name": "Garlic Herb Roasted Potatoes",
-    "ingredients": [
-      "Potato",
-      "Garlic",
-      "Rosemary",
-      "Thyme",
-      "Olive oil",
-      "Black pepper"
-    ]
-  },
-  {
-    "name": "Linguine with Clam Sauce",
-    "ingredients": [
-      "Clams",
-      "Linguine",
-      "Garlic",
-      "Olive oil",
+      "Spinach",
+      "Feta cheese",
       "Parsley",
-      "White wine"
+      "Salt",
+      "Black pepper",
+      "Paprika"
     ]
   },
   {
-    "name": "Sourdough Bread",
-    "ingredients": [
-      "Flour",
-      "Water",
-      "Yeast",
-      "Salt"
-    ]
-  },
-  {
-    "name": "Honey Glazed Carrots",
-    "ingredients": [
-      "Carrot",
-      "Honey",
-      "Butter",
-      "Thyme"
-    ]
-  },
-  {
-    "name": "Egg Salad Sandwich",
-    "ingredients": [
-      "Egg",
-      "Mayonnaise",
-      "Mustard",
-      "Bread",
-      "Lettuce"
-    ]
-  },
-  {
-    "name": "Cornbread",
-    "ingredients": [
-      "Cornmeal",
-      "Flour",
-      "Egg",
-      "Milk",
-      "Butter"
-    ]
-  },
-  {
-    "name": "Oatmeal Cookies",
-    "ingredients": [
-      "Oats",
-      "Flour",
-      "Sugar",
-      "Butter",
-      "Egg",
-      "Cinnamon"
-    ]
-  },
-  {
-    "name": "Beef Wellington",
+    "name": "Beef and Broccoli",
+    "description": "A classic beef and broccoli dish with tender beef strips and crisp broccoli in a savory sauce.",
+    "steps": [
+      "Slice beef into thin strips.",
+      "Blanch broccoli florets in boiling water for 2 minutes, then drain.",
+      "Heat oil in a pan and add beef strips, cooking until browned.",
+      "Add garlic, soy sauce, and a pinch of sugar, then stir in the broccoli.",
+      "Cook until the broccoli is tender and the beef is cooked through."
+    ],
     "ingredients": [
       "Beef",
-      "Mushroom",
-      "Puff pastry",
+      "Broccoli",
       "Garlic",
-      "Butter",
-      "Egg"
+      "Soy sauce",
+      "Sugar",
+      "Oil"
     ]
   },
   {
-    "name": "Stuffed Mushrooms",
-    "ingredients": [
-      "Mushroom",
-      "Bread crumbs",
-      "Garlic",
-      "Parmesan cheese",
-      "Olive oil",
-      "Parsley"
-    ]
-  },
-  {
-    "name": "Chicken Marsala",
+    "name": "Pineapple Chicken Skewers",
+    "description": "Grilled chicken skewers with pineapple chunks, bell peppers, and onions, brushed with a tangy glaze.",
+    "steps": [
+      "Cut chicken breast into chunks and marinate with soy sauce, honey, and garlic.",
+      "Thread chicken, pineapple chunks, bell peppers, and onions onto skewers.",
+      "Grill skewers over medium heat, turning occasionally, until chicken is cooked through.",
+      "Brush with additional glaze during grilling."
+    ],
     "ingredients": [
       "Chicken breast",
-      "Mushroom",
-      "Garlic",
-      "Marsala wine",
-      "Butter",
-      "Parsley"
-    ]
-  },
-  {
-    "name": "Strawberry Shortcake",
-    "ingredients": [
-      "Strawberry",
-      "Flour",
-      "Sugar",
-      "Butter",
-      "Cream",
-      "Baking powder"
-    ]
-  },
-  {
-    "name": "Roasted Brussels Sprouts",
-    "ingredients": [
-      "Brussels sprouts",
-      "Olive oil",
-      "Garlic",
-      "Balsamic vinegar",
-      "Parmesan cheese"
-    ]
-  },
-  {
-    "name": "Clam Chowder",
-    "ingredients": [
-      "Clams",
-      "Potato",
+      "Pineapple",
+      "Bell pepper",
       "Onion",
-      "Celery",
-      "Cream",
-      "Butter"
-    ]
-  },
-  {
-    "name": "Sweet Potato Casserole",
-    "ingredients": [
-      "Sweet potato",
-      "Marshmallow",
-      "Brown sugar",
-      "Butter",
-      "Cinnamon",
-      "Nutmeg"
-    ]
-  },
-  {
-    "name": "Tofu Stir-Fry",
-    "ingredients": [
-      "Tofu",
-      "Broccoli",
-      "Carrot",
       "Soy sauce",
-      "Ginger",
+      "Honey",
       "Garlic"
     ]
   },
   {
-    "name": "Lemon Chicken Piccata",
+    "name": "Mango Smoothie",
+    "description": "A refreshing and creamy mango smoothie made with fresh mango, yogurt, and a hint of honey.",
+    "steps": [
+      "Combine mango, yogurt, honey, and a splash of water in a blender.",
+      "Blend until smooth and creamy.",
+      "Serve chilled."
+    ],
     "ingredients": [
-      "Chicken breast",
-      "Lemon",
-      "Garlic",
-      "Butter",
-      "Capers",
-      "Parsley"
+      "Mango",
+      "Yogurt",
+      "Honey",
+      "Water"
     ]
   },
   {
-    "name": "Shrimp Fried Rice",
+    "name": "Quinoa and Black Bean Salad",
+    "description": "A hearty salad with quinoa, black beans, corn, and a zesty lime dressing.",
+    "steps": [
+      "Cook quinoa according to package instructions and let cool.",
+      "Combine cooked quinoa, black beans, corn, and chopped bell pepper in a bowl.",
+      "Mix lime juice, olive oil, salt, and cumin for the dressing.",
+      "Toss salad with the dressing and garnish with chopped cilantro."
+    ],
+    "ingredients": [
+      "Quinoa",
+      "Black beans",
+      "Corn",
+      "Bell pepper",
+      "Lime",
+      "Olive oil",
+      "Salt",
+      "Cumin",
+      "Cilantro"
+    ]
+  },
+  {
+    "name": "Garlic Butter Shrimp",
+    "description": "Succulent shrimp sautéed in a garlic butter sauce with a touch of lemon.",
+    "steps": [
+      "Heat butter in a pan and add minced garlic.",
+      "Add shrimp and cook until pink and opaque.",
+      "Season with salt, black pepper, and a squeeze of lemon juice.",
+      "Serve with a side of vegetables or over rice."
+    ],
     "ingredients": [
       "Shrimp",
-      "Rice",
-      "Egg",
-      "Soy sauce",
-      "Peas",
-      "Carrot"
-    ]
-  },
-  {
-    "name": "Pineapple Fried Rice",
-    "ingredients": [
-      "Pineapple",
-      "Rice",
-      "Egg",
-      "Soy sauce",
-      "Carrot",
-      "Peas"
-    ]
-  },
-  {
-    "name": "Roasted Asparagus",
-    "ingredients": [
-      "Asparagus",
-      "Olive oil",
+      "Butter",
       "Garlic",
-      "Parmesan cheese",
+      "Salt",
+      "Black pepper",
       "Lemon"
     ]
   },
   {
-    "name": "Bruschetta",
+    "name": "Tomato Basil Soup",
+    "description": "A classic tomato soup with fresh basil, perfect for a cozy meal.",
+    "steps": [
+      "Sauté chopped onions and garlic in olive oil.",
+      "Add chopped tomatoes and vegetable broth, and simmer for 20 minutes.",
+      "Blend soup until smooth and return to the pot.",
+      "Stir in fresh basil and season with salt and pepper.",
+      "Serve hot with a side of bread."
+    ],
     "ingredients": [
       "Tomato",
-      "Basil",
+      "Onion",
       "Garlic",
+      "Vegetable broth",
+      "Basil",
+      "Salt",
+      "Black pepper",
       "Olive oil",
-      "Balsamic vinegar",
       "Bread"
     ]
   },
   {
-    "name": "Lentil Soup",
+    "name": "Apple Cinnamon Oatmeal",
+    "description": "Warm and comforting oatmeal with fresh apple chunks and a sprinkle of cinnamon.",
+    "steps": [
+      "Cook oats according to package instructions.",
+      "Stir in chopped apples and a sprinkle of cinnamon.",
+      "Sweeten with honey or maple syrup if desired.",
+      "Serve hot with a dollop of yogurt."
+    ],
     "ingredients": [
-      "Lentils",
-      "Carrot",
-      "Celery",
-      "Onion",
-      "Garlic",
-      "Tomato"
-    ]
-  },
-  {
-    "name": "Pumpkin Pie",
-    "ingredients": [
-      "Pumpkin",
+      "Oats",
+      "Apple",
       "Cinnamon",
-      "Nutmeg",
-      "Ginger",
-      "Sugar",
-      "Pie crust"
+      "Honey",
+      "Yogurt"
     ]
   },
   {
-    "name": "Chicken and Rice Casserole",
+    "name": "Bacon and Egg Breakfast Burrito",
+    "description": "A hearty breakfast burrito filled with crispy bacon, scrambled eggs, and cheddar cheese.",
+    "steps": [
+      "Cook bacon in a pan until crispy, then drain on paper towels.",
+      "Scramble eggs in the same pan and season with salt and black pepper.",
+      "Warm tortillas and fill with bacon, eggs, and shredded cheddar cheese.",
+      "Roll up the tortillas and serve."
+    ],
     "ingredients": [
-      "Chicken breast",
-      "Rice",
-      "Mushroom",
-      "Onion",
-      "Cream",
-      "Cheddar cheese"
+      "Bacon",
+      "Eggs",
+      "Cheddar cheese",
+      "Tortillas",
+      "Salt",
+      "Black pepper"
     ]
   },
   {
-    "name": "Spinach Artichoke Dip",
+    "name": "Pasta with Tomato and Basil Sauce",
+    "description": "Pasta tossed with a fresh tomato and basil sauce, perfect for a quick dinner.",
+    "steps": [
+      "Cook pasta according to package instructions.",
+      "In a pan, sauté chopped onions and garlic in olive oil.",
+      "Add chopped tomatoes and cook until they start to break down.",
+      "Stir in fresh basil and season with salt and pepper.",
+      "Toss the pasta with the sauce and serve hot."
+    ],
     "ingredients": [
-      "Spinach",
-      "Artichoke",
-      "Cream cheese",
-      "Parmesan cheese",
-      "Garlic",
-      "Mayonnaise"
-    ]
-  },
-  {
-    "name": "Roasted Beet Salad",
-    "ingredients": [
-      "Beet",
-      "Goat cheese",
-      "Walnut",
-      "Spinach",
-      "Olive oil",
-      "Balsamic vinegar"
-    ]
-  },
-  {
-    "name": "Butternut Squash Soup",
-    "ingredients": [
-      "Butternut squash",
-      "Onion",
-      "Garlic",
-      "Cream",
-      "Nutmeg",
-      "Olive oil"
-    ]
-  },
-  {
-    "name": "Fish Tacos",
-    "ingredients": [
-      "White fish",
-      "Taco shells",
-      "Cabbage",
-      "Lime",
-      "Cilantro",
-      "Sour cream"
-    ]
-  },
-  {
-    "name": "Black Bean Chili",
-    "ingredients": [
-      "Black beans",
+      "Spaghetti",
       "Tomato",
       "Onion",
       "Garlic",
-      "Chili powder",
-      "Cumin"
+      "Olive oil",
+      "Basil",
+      "Salt",
+      "Black pepper"
     ]
   },
   {
-    "name": "Carrot Cake",
+    "name": "Sweet and Sour Pork",
+    "description": "Tender pork pieces in a tangy sweet and sour sauce with pineapple and bell peppers.",
+    "steps": [
+      "Cut pork into bite-sized pieces and coat with flour.",
+      "Fry pork pieces until golden brown and set aside.",
+      "In a pan, sauté chopped bell peppers and pineapple chunks.",
+      "Add a sauce made from vinegar, soy sauce, sugar, and ketchup.",
+      "Return the pork to the pan and toss until well-coated and heated through."
+    ],
+    "ingredients": [
+      "Pork",
+      "Bell pepper",
+      "Pineapple",
+      "Vinegar",
+      "Soy sauce",
+      "Sugar",
+      "Ketchup"
+    ]
+  },
+  {
+    "name": "Zucchini and Corn Fritters",
+    "description": "Crispy fritters made with shredded zucchini and corn, perfect for a light meal or snack.",
+    "steps": [
+      "Grate zucchini and squeeze out excess moisture.",
+      "Mix zucchini with corn, flour, and eggs.",
+      "Season with salt, black pepper, and a pinch of paprika.",
+      "Form into small patties and fry in oil until golden brown on both sides.",
+      "Serve warm with a dipping sauce of choice."
+    ],
+    "ingredients": [
+      "Zucchini",
+      "Corn",
+      "Flour",
+      "Eggs",
+      "Salt",
+      "Black pepper",
+      "Paprika",
+      "Oil"
+    ]
+  },
+  {
+    "name": "Cheddar Stuffed Meatballs",
+    "description": "Juicy meatballs stuffed with cheddar cheese and baked until melted and golden.",
+    "steps": [
+      "Preheat oven to 375°F (190°C).",
+      "Mix ground beef with breadcrumbs, egg, and seasonings.",
+      "Form into meatballs and insert a small cube of cheddar cheese into the center of each.",
+      "Bake meatballs for 20 minutes, or until cooked through and cheese is melted."
+    ],
+    "ingredients": [
+      "Beef",
+      "Breadcrumbs",
+      "Egg",
+      "Cheddar cheese",
+      "Salt",
+      "Black pepper"
+    ]
+  },
+  {
+    "name": "Peach and Blueberry Crisp",
+    "description": "A delightful crisp made with fresh peaches and blueberries, topped with a buttery oat crumble.",
+    "steps": [
+      "Preheat oven to 350°F (175°C).",
+      "Combine sliced peaches and blueberries with a bit of sugar and cornstarch.",
+      "Transfer fruit mixture to a baking dish.",
+      "Mix oats, flour, brown sugar, and butter to make the crumble topping.",
+      "Sprinkle topping over the fruit and bake for 35-40 minutes until bubbly and golden."
+    ],
+    "ingredients": [
+      "Peach",
+      "Blueberry",
+      "Sugar",
+      "Cornstarch",
+      "Oats",
+      "Flour",
+      "Brown sugar",
+      "Butter"
+    ]
+  },
+  {
+    "name": "Lemon Garlic Scallops",
+    "description": "Succulent scallops seared with garlic and lemon, creating a light and flavorful dish.",
+    "steps": [
+      "Pat scallops dry and season with salt and black pepper.",
+      "Heat butter in a pan and add minced garlic.",
+      "Add scallops and sear for 2-3 minutes per side until golden brown.",
+      "Squeeze lemon juice over scallops and serve with a garnish of fresh parsley."
+    ],
+    "ingredients": [
+      "Scallops",
+      "Butter",
+      "Garlic",
+      "Salt",
+      "Black pepper",
+      "Lemon",
+      "Parsley"
+    ]
+  },
+  {
+    "name": "Creamy Tomato Basil Pasta",
+    "description": "Pasta in a rich and creamy tomato sauce with fresh basil and a sprinkle of parmesan cheese.",
+    "steps": [
+      "Cook pasta according to package instructions.",
+      "In a pan, sauté garlic and onions in olive oil.",
+      "Add crushed tomatoes and cream, and simmer until thickened.",
+      "Stir in fresh basil and season with salt and black pepper.",
+      "Toss pasta with the sauce and top with grated parmesan cheese."
+    ],
+    "ingredients": [
+      "Spaghetti",
+      "Tomato",
+      "Garlic",
+      "Onion",
+      "Olive oil",
+      "Cream",
+      "Basil",
+      "Salt",
+      "Black pepper",
+      "Parmesan cheese"
+    ]
+  },
+  {
+    "name": "Turkey and Cranberry Meatballs",
+    "description": "Tender turkey meatballs with a hint of cranberry sauce, perfect for a holiday appetizer.",
+    "steps": [
+      "Preheat oven to 375°F (190°C).",
+      "Mix ground turkey with breadcrumbs, egg, and seasonings.",
+      "Form into meatballs and place on a baking sheet.",
+      "Bake for 20 minutes until cooked through.",
+      "Serve with a side of cranberry sauce for dipping."
+    ],
+    "ingredients": [
+      "Turkey",
+      "Breadcrumbs",
+      "Egg",
+      "Salt",
+      "Black pepper",
+      "Cranberry sauce"
+    ]
+  },
+  {
+    "name": "Almond Crusted Salmon",
+    "description": "Salmon fillets coated with a crunchy almond crust and baked until flaky and delicious.",
+    "steps": [
+      "Preheat oven to 400°F (200°C).",
+      "Mix crushed almonds with breadcrumbs and seasonings.",
+      "Brush salmon fillets with a mixture of Dijon mustard and honey.",
+      "Press the almond mixture onto the salmon.",
+      "Bake for 15-20 minutes until salmon is cooked through and crust is golden brown."
+    ],
+    "ingredients": [
+      "Salmon",
+      "Almond",
+      "Breadcrumbs",
+      "Dijon mustard",
+      "Honey",
+      "Salt",
+      "Black pepper"
+    ]
+  },
+  {
+    "name": "Apple and Walnut Salad",
+    "description": "A crisp salad with fresh apples, crunchy walnuts, and a tangy vinaigrette.",
+    "steps": [
+      "Combine chopped apples, walnuts, and mixed greens in a bowl.",
+      "Whisk together olive oil, apple cider vinegar, honey, and Dijon mustard for the vinaigrette.",
+      "Toss the salad with the vinaigrette and serve."
+    ],
+    "ingredients": [
+      "Apple",
+      "Walnut",
+      "Mixed greens",
+      "Olive oil",
+      "Apple cider vinegar",
+      "Honey",
+      "Dijon mustard"
+    ]
+  },
+  {
+    "name": "Pumpkin and Sage Risotto",
+    "description": "Creamy risotto with roasted pumpkin and fragrant sage leaves.",
+    "steps": [
+      "Roast pumpkin cubes until tender.",
+      "Cook onions and garlic in butter until translucent.",
+      "Add Arborio rice and cook for 1-2 minutes.",
+      "Gradually add vegetable broth, stirring constantly, until rice is creamy and cooked through.",
+      "Stir in roasted pumpkin and fresh sage leaves, and season with salt and pepper."
+    ],
+    "ingredients": [
+      "Pumpkin",
+      "Arborio rice",
+      "Onion",
+      "Garlic",
+      "Butter",
+      "Vegetable broth",
+      "Sage",
+      "Salt",
+      "Black pepper"
+    ]
+  },
+  {
+    "name": "Banana Peanut Butter Smoothie",
+    "description": "A creamy and nutritious smoothie with banana and peanut butter.",
+    "steps": [
+      "Blend together bananas, peanut butter, milk, and a bit of honey until smooth.",
+      "Serve chilled."
+    ],
+    "ingredients": [
+      "Banana",
+      "Peanut butter",
+      "Milk",
+      "Honey"
+    ]
+  },
+  {
+    "name": "Stuffed Bell Peppers",
+    "description": "Bell peppers filled with a savory mixture of ground beef, rice, and vegetables, then baked to perfection.",
+    "steps": [
+      "Preheat oven to 375°F (190°C).",
+      "Cook rice according to package instructions.",
+      "In a pan, sauté ground beef with chopped onion, garlic, and bell peppers.",
+      "Mix cooked rice into the beef mixture and season with salt, black pepper, and oregano.",
+      "Cut tops off bell peppers and remove seeds.",
+      "Stuff bell peppers with the beef and rice mixture.",
+      "Place stuffed peppers in a baking dish and bake for 25-30 minutes."
+    ],
+    "ingredients": [
+      "Bell pepper",
+      "Ground beef",
+      "Rice",
+      "Onion",
+      "Garlic",
+      "Salt",
+      "Black pepper",
+      "Oregano"
+    ]
+  },
+  {
+    "name": "Creamy Spinach and Mushroom Pasta",
+    "description": "Pasta in a creamy sauce with sautéed spinach and mushrooms.",
+    "steps": [
+      "Cook pasta according to package instructions.",
+      "In a pan, sauté sliced mushrooms and garlic until tender.",
+      "Add fresh spinach and cook until wilted.",
+      "Stir in cream and parmesan cheese, and cook until the sauce thickens.",
+      "Toss pasta with the sauce and serve."
+    ],
+    "ingredients": [
+      "Spaghetti",
+      "Spinach",
+      "Mushroom",
+      "Garlic",
+      "Cream",
+      "Parmesan cheese",
+      "Salt",
+      "Black pepper"
+    ]
+  },
+  {
+    "name": "Apple Cinnamon Oatmeal",
+    "description": "Warm and comforting oatmeal with diced apples and a hint of cinnamon.",
+    "steps": [
+      "Cook oats according to package instructions.",
+      "Stir in diced apples, cinnamon, and a bit of honey.",
+      "Simmer until apples are tender and oatmeal is creamy.",
+      "Serve with a splash of milk if desired."
+    ],
+    "ingredients": [
+      "Oats",
+      "Apple",
+      "Cinnamon",
+      "Honey",
+      "Milk"
+    ]
+  },
+  {
+    "name": "Grilled Chicken with Mango Salsa",
+    "description": "Grilled chicken served with a fresh mango salsa made with onions, bell peppers, and cilantro.",
+    "steps": [
+      "Season chicken breasts with salt and black pepper.",
+      "Grill chicken until cooked through and grill marks appear.",
+      "Combine diced mango, chopped onions, bell peppers, cilantro, and lime juice to make salsa.",
+      "Serve grilled chicken topped with mango salsa."
+    ],
+    "ingredients": [
+      "Chicken breast",
+      "Mango",
+      "Onion",
+      "Bell pepper",
+      "Cilantro",
+      "Lime juice",
+      "Salt",
+      "Black pepper"
+    ]
+  },
+  {
+    "name": "Beef and Broccoli Stir-Fry",
+    "description": "Tender beef and crisp broccoli stir-fried with a savory soy sauce and garlic sauce.",
+    "steps": [
+      "Slice beef thinly and marinate in soy sauce and garlic.",
+      "Stir-fry beef in a hot pan until browned and cooked through.",
+      "Add broccoli florets and continue to stir-fry until tender.",
+      "Mix in a sauce made from soy sauce, ginger, and a touch of honey.",
+      "Serve over rice."
+    ],
+    "ingredients": [
+      "Beef",
+      "Broccoli",
+      "Soy sauce",
+      "Garlic",
+      "Ginger",
+      "Honey",
+      "Rice"
+    ]
+  },
+  {
+    "name": "Lemon Herb Roasted Chicken",
+    "description": "A flavorful roasted chicken with lemon and fresh herbs.",
+    "steps": [
+      "Preheat oven to 400°F (200°C).",
+      "Season chicken with salt, black pepper, lemon juice, and chopped herbs like rosemary and thyme.",
+      "Place chicken in a roasting pan and bake for 45-60 minutes until cooked through and skin is crispy.",
+      "Rest before carving."
+    ],
+    "ingredients": [
+      "Chicken",
+      "Lemon",
+      "Rosemary",
+      "Thyme",
+      "Salt",
+      "Black pepper"
+    ]
+  },
+  {
+    "name": "Coconut Shrimp Curry",
+    "description": "Shrimp cooked in a rich and creamy coconut curry sauce with a blend of spices.",
+    "steps": [
+      "Sauté chopped onions and garlic in oil until translucent.",
+      "Add curry powder, cumin, and turmeric, and cook for another minute.",
+      "Pour in coconut milk and bring to a simmer.",
+      "Add shrimp and cook until pink and cooked through.",
+      "Serve with rice or naan."
+    ],
+    "ingredients": [
+      "Shrimp",
+      "Onion",
+      "Garlic",
+      "Coconut milk",
+      "Curry powder",
+      "Cumin",
+      "Turmeric",
+      "Rice or naan"
+    ]
+  },
+  {
+    "name": "Strawberry Almond Chia Pudding",
+    "description": "A healthy and creamy chia pudding topped with fresh strawberries and almonds.",
+    "steps": [
+      "Mix chia seeds with almond milk and a bit of honey.",
+      "Refrigerate for at least 4 hours or overnight until thickened.",
+      "Top with sliced strawberries and chopped almonds before serving."
+    ],
+    "ingredients": [
+      "Chia seeds",
+      "Almond milk",
+      "Honey",
+      "Strawberry",
+      "Almonds"
+    ]
+  },
+  {
+    "name": "Potato and Leek Soup",
+    "description": "A smooth and creamy soup made with tender potatoes and leeks.",
+    "steps": [
+      "Sauté chopped leeks and garlic in butter until softened.",
+      "Add diced potatoes and vegetable broth, and bring to a boil.",
+      "Simmer until potatoes are tender, then blend until smooth.",
+      "Stir in cream and season with salt and black pepper."
+    ],
+    "ingredients": [
+      "Potato",
+      "Leek",
+      "Garlic",
+      "Butter",
+      "Vegetable broth",
+      "Cream",
+      "Salt",
+      "Black pepper"
+    ]
+  },
+  {
+    "name": "Orange Honey Glazed Carrots",
+    "description": "Tender carrots glazed with a sweet orange honey sauce.",
+    "steps": [
+      "Cook sliced carrots in boiling water until tender.",
+      "In a pan, heat orange juice and honey until it starts to thicken.",
+      "Toss cooked carrots in the orange honey glaze.",
+      "Serve warm."
+    ],
     "ingredients": [
       "Carrot",
-      "Flour",
-      "Sugar",
-      "Egg",
-      "Cinnamon",
-      "Cream cheese"
+      "Orange juice",
+      "Honey"
     ]
   },
   {
-    "name": "Cucumber Sandwiches",
+    "name": "Spaghetti Carbonara",
+    "description": "Classic Italian pasta with a creamy sauce made from eggs, cheese, and crispy bacon.",
+    "steps": [
+      "Cook spaghetti according to package instructions.",
+      "Cook bacon until crispy, then crumble into pieces.",
+      "In a bowl, mix eggs with grated parmesan cheese.",
+      "Toss hot pasta with the bacon and egg mixture until creamy.",
+      "Serve immediately with extra cheese and black pepper."
+    ],
     "ingredients": [
-      "Cucumber",
-      "Bread",
-      "Cream cheese",
+      "Spaghetti",
+      "Bacon",
+      "Eggs",
+      "Parmesan cheese",
+      "Black pepper"
+    ]
+  },
+  {
+    "name": "Mango Chicken Salad",
+    "description": "A fresh salad with grilled chicken, ripe mango, mixed greens, and a zesty lime dressing.",
+    "steps": [
+      "Grill chicken breasts and slice into strips.",
+      "In a bowl, mix together mixed greens, diced mango, and sliced chicken.",
+      "Whisk together lime juice, olive oil, honey, and a pinch of salt for the dressing.",
+      "Toss salad with dressing and serve."
+    ],
+    "ingredients": [
+      "Chicken breast",
+      "Mango",
+      "Mixed greens",
+      "Lime juice",
+      "Olive oil",
+      "Honey",
+      "Salt"
+    ]
+  },
+  {
+    "name": "Creamy Tomato Soup",
+    "description": "A comforting tomato soup with a smooth, creamy texture and fresh basil.",
+    "steps": [
+      "Sauté chopped onions and garlic in olive oil until soft.",
+      "Add diced tomatoes and vegetable broth, then simmer for 20 minutes.",
+      "Blend the soup until smooth and stir in cream.",
+      "Season with salt, black pepper, and fresh basil before serving."
+    ],
+    "ingredients": [
+      "Tomato",
+      "Onion",
+      "Garlic",
+      "Vegetable broth",
+      "Cream",
+      "Salt",
+      "Black pepper",
+      "Basil"
+    ]
+  },
+  {
+    "name": "Pineapple Fried Rice",
+    "description": "A tropical twist on fried rice with pineapple, bell peppers, and a touch of soy sauce.",
+    "steps": [
+      "Cook rice according to package instructions and let cool.",
+      "In a pan, sauté diced bell peppers and onions until tender.",
+      "Add pineapple chunks and cooked rice to the pan.",
+      "Stir in soy sauce and cook until everything is heated through.",
+      "Serve garnished with chopped cilantro."
+    ],
+    "ingredients": [
+      "Rice",
+      "Bell pepper",
+      "Onion",
+      "Pineapple",
+      "Soy sauce",
+      "Cilantro"
+    ]
+  },
+  {
+    "name": "Greek Yogurt Parfait",
+    "description": "A simple and healthy parfait with layers of Greek yogurt, fresh fruit, and granola.",
+    "steps": [
+      "In a glass or bowl, layer Greek yogurt with fresh strawberries and blueberries.",
+      "Add a layer of granola on top.",
+      "Repeat layers as desired and serve immediately."
+    ],
+    "ingredients": [
+      "Greek yogurt",
+      "Strawberry",
+      "Blueberry",
+      "Granola"
+    ]
+  },
+  {
+    "name": "Roasted Vegetable Quinoa Bowl",
+    "description": "A nourishing bowl with roasted vegetables and quinoa, topped with a tangy vinaigrette.",
+    "steps": [
+      "Preheat oven to 400°F (200°C).",
+      "Toss diced potatoes, carrots, and zucchini with olive oil, salt, and black pepper.",
+      "Roast vegetables for 25-30 minutes until tender.",
+      "Cook quinoa according to package instructions.",
+      "Combine quinoa and roasted vegetables in a bowl.",
+      "Drizzle with a vinaigrette made from lemon juice, olive oil, and a touch of honey."
+    ],
+    "ingredients": [
+      "Potato",
+      "Carrot",
+      "Zucchini",
+      "Quinoa",
+      "Olive oil",
+      "Salt",
+      "Black pepper",
+      "Lemon juice",
+      "Honey"
+    ]
+  },
+  {
+    "name": "Baked Salmon with Dill",
+    "description": "Tender baked salmon fillets seasoned with fresh dill and lemon.",
+    "steps": [
+      "Preheat oven to 375°F (190°C).",
+      "Place salmon fillets on a baking sheet and season with salt, black pepper, and fresh dill.",
+      "Top with lemon slices.",
+      "Bake for 15-20 minutes until salmon is cooked through."
+    ],
+    "ingredients": [
+      "Salmon",
+      "Salt",
+      "Black pepper",
       "Dill",
       "Lemon"
     ]
   },
   {
-    "name": "Avocado Toast",
+    "name": "Peach and Almond Smoothie",
+    "description": "A refreshing smoothie made with ripe peaches, almond milk, and a touch of honey.",
+    "steps": [
+      "Blend peeled peaches with almond milk and honey until smooth.",
+      "Serve chilled, garnished with sliced almonds if desired."
+    ],
     "ingredients": [
-      "Avocado",
-      "Bread",
-      "Lemon",
-      "Olive oil",
+      "Peach",
+      "Almond milk",
+      "Honey",
+      "Almonds"
+    ]
+  },
+  {
+    "name": "Honey Mustard Glazed Pork Chops",
+    "description": "Pork chops glazed with a sweet and tangy honey mustard sauce, then baked to perfection.",
+    "steps": [
+      "Preheat oven to 375°F (190°C).",
+      "Mix honey and mustard together to create the glaze.",
+      "Season pork chops with salt and black pepper, then brush with the honey mustard glaze.",
+      "Bake for 25-30 minutes until pork chops are cooked through."
+    ],
+    "ingredients": [
+      "Pork",
+      "Honey",
+      "Mustard",
       "Salt",
       "Black pepper"
     ]
   },
   {
-    "name": "Stuffed Zucchini",
+    "name": "Vegetable Stir-Fry with Tofu",
+    "description": "A colorful stir-fry with tofu, broccoli, bell peppers, and a savory soy sauce.",
+    "steps": [
+      "Cube tofu and pan-fry until golden brown.",
+      "Add chopped broccoli, bell peppers, and garlic to the pan.",
+      "Stir-fry until vegetables are tender.",
+      "Add soy sauce and cook for another 2 minutes.",
+      "Serve with rice."
+    ],
+    "ingredients": [
+      "Tofu",
+      "Broccoli",
+      "Bell pepper",
+      "Garlic",
+      "Soy sauce",
+      "Rice"
+    ]
+  },
+  {
+    "name": "Chocolate Banana Pancakes",
+    "description": "Fluffy pancakes with chocolate chips and banana slices, perfect for a sweet breakfast.",
+    "steps": [
+      "Mix pancake batter with chocolate chips.",
+      "Cook pancakes on a griddle until bubbles form on the surface.",
+      "Flip and cook until golden brown.",
+      "Serve topped with sliced bananas and a drizzle of syrup."
+    ],
+    "ingredients": [
+      "Banana",
+      "Chocolate chips",
+      "Pancake batter",
+      "Syrup"
+    ]
+  },
+  {
+    "name": "Spiced Carrot Soup",
+    "description": "A flavorful carrot soup with a blend of spices and a creamy finish.",
+    "steps": [
+      "Sauté onions, garlic, and carrots in a pot until tender.",
+      "Add cumin, turmeric, and paprika, and cook for another minute.",
+      "Pour in vegetable broth and simmer until carrots are very soft.",
+      "Blend the soup until smooth and stir in a splash of cream.",
+      "Season with salt and black pepper to taste."
+    ],
+    "ingredients": [
+      "Carrot",
+      "Onion",
+      "Garlic",
+      "Cumin",
+      "Turmeric",
+      "Paprika",
+      "Vegetable broth",
+      "Cream",
+      "Salt",
+      "Black pepper"
+    ]
+  },
+  {
+    "name": "Lemon Herb Chicken",
+    "description": "Grilled chicken breasts marinated in a zesty lemon herb mixture.",
+    "steps": [
+      "In a bowl, mix lemon juice, olive oil, minced garlic, chopped parsley, and a pinch of salt and black pepper.",
+      "Marinate chicken breasts in the mixture for at least 30 minutes.",
+      "Grill chicken over medium heat for 6-8 minutes per side, or until fully cooked."
+    ],
+    "ingredients": [
+      "Chicken breast",
+      "Lemon juice",
+      "Olive oil",
+      "Garlic",
+      "Parsley",
+      "Salt",
+      "Black pepper"
+    ]
+  },
+  {
+    "name": "Spinach and Feta Stuffed Peppers",
+    "description": "Bell peppers stuffed with a savory mixture of spinach, feta cheese, and quinoa.",
+    "steps": [
+      "Preheat oven to 375°F (190°C).",
+      "Cook quinoa according to package instructions.",
+      "Sauté spinach until wilted and mix with cooked quinoa and crumbled feta cheese.",
+      "Cut the tops off the bell peppers and remove seeds.",
+      "Stuff peppers with the spinach mixture and place in a baking dish.",
+      "Bake for 25-30 minutes until peppers are tender."
+    ],
+    "ingredients": [
+      "Bell pepper",
+      "Spinach",
+      "Quinoa",
+      "Feta cheese",
+      "Salt",
+      "Black pepper"
+    ]
+  },
+  {
+    "name": "Apple Cinnamon Oatmeal",
+    "description": "A warm and hearty oatmeal topped with fresh apples and a sprinkle of cinnamon.",
+    "steps": [
+      "Cook oats according to package instructions.",
+      "Stir in diced apples and a sprinkle of cinnamon.",
+      "Top with a drizzle of honey or maple syrup if desired."
+    ],
+    "ingredients": [
+      "Oats",
+      "Apple",
+      "Cinnamon",
+      "Honey"
+    ]
+  },
+  {
+    "name": "Beef and Broccoli Stir-Fry",
+    "description": "A savory stir-fry featuring tender beef strips and crisp broccoli in a soy-based sauce.",
+    "steps": [
+      "Slice beef into thin strips and marinate in soy sauce and garlic for 15 minutes.",
+      "Stir-fry beef in a hot pan until browned.",
+      "Add broccoli and cook until tender-crisp.",
+      "Stir in a splash of soy sauce and serve with rice."
+    ],
+    "ingredients": [
+      "Beef",
+      "Broccoli",
+      "Soy sauce",
+      "Garlic",
+      "Rice"
+    ]
+  },
+  {
+    "name": "Strawberry Lemonade",
+    "description": "A refreshing lemonade with a sweet strawberry twist.",
+    "steps": [
+      "Blend fresh strawberries with lemon juice and a bit of honey.",
+      "Strain mixture through a sieve to remove seeds.",
+      "Mix with cold water and chill in the refrigerator.",
+      "Serve over ice with lemon slices for garnish."
+    ],
+    "ingredients": [
+      "Strawberry",
+      "Lemon juice",
+      "Honey",
+      "Water"
+    ]
+  },
+  {
+    "name": "Zucchini Bread",
+    "description": "A moist and flavorful bread with shredded zucchini and a touch of cinnamon.",
+    "steps": [
+      "Preheat oven to 350°F (175°C).",
+      "Mix flour, baking soda, cinnamon, and salt in one bowl.",
+      "In another bowl, combine sugar, eggs, and melted butter.",
+      "Fold in shredded zucchini.",
+      "Combine wet and dry ingredients and pour into a greased loaf pan.",
+      "Bake for 50-60 minutes, or until a toothpick comes out clean."
+    ],
     "ingredients": [
       "Zucchini",
-      "Ground beef",
-      "Tomato",
-      "Onion",
-      "Parmesan cheese",
-      "Garlic"
+      "Flour",
+      "Baking soda",
+      "Cinnamon",
+      "Salt",
+      "Sugar",
+      "Eggs",
+      "Butter"
     ]
   },
   {
-    "name": "Pomegranate Salad",
+    "name": "Pumpkin Spice Muffins",
+    "description": "Delicious muffins with a hint of pumpkin and warm spices.",
+    "steps": [
+      "Preheat oven to 350°F (175°C).",
+      "In a bowl, mix flour, baking powder, cinnamon, nutmeg, and salt.",
+      "In another bowl, combine pumpkin puree, sugar, eggs, and melted butter.",
+      "Fold wet ingredients into dry ingredients.",
+      "Spoon batter into muffin tins and bake for 20-25 minutes."
+    ],
     "ingredients": [
-      "Pomegranate",
-      "Spinach",
-      "Walnut",
-      "Feta cheese",
-      "Olive oil",
-      "Balsamic vinegar"
+      "Pumpkin",
+      "Flour",
+      "Baking powder",
+      "Cinnamon",
+      "Nutmeg",
+      "Salt",
+      "Sugar",
+      "Eggs",
+      "Butter"
     ]
   },
   {
-    "name": "Tom Yum Soup",
+    "name": "Garlic Parmesan Shrimp",
+    "description": "Tender shrimp sautéed with garlic and Parmesan cheese for a flavorful dish.",
+    "steps": [
+      "In a skillet, sauté minced garlic in olive oil until fragrant.",
+      "Add shrimp and cook until pink and opaque.",
+      "Sprinkle with Parmesan cheese and toss to coat.",
+      "Season with salt and black pepper, and garnish with parsley."
+    ],
     "ingredients": [
       "Shrimp",
-      "Lemongrass",
-      "Mushroom",
-      "Lime",
-      "Cilantro",
-      "Fish sauce"
-    ]
-  },
-  {
-    "name": "Sweet and Sour Pork",
-    "ingredients": [
-      "Pork chop",
-      "Pineapple",
-      "Bell pepper",
-      "Soy sauce",
-      "Vinegar",
-      "Sugar"
-    ]
-  },
-  {
-    "name": "Egg Fried Rice",
-    "ingredients": [
-      "Egg",
-      "Rice",
-      "Peas",
-      "Carrot",
-      "Soy sauce",
-      "Scallions"
-    ]
-  },
-  {
-    "name": "Hummus",
-    "ingredients": [
-      "Chickpeas",
       "Garlic",
-      "Tahini",
-      "Lemon",
+      "Olive oil",
+      "Parmesan cheese",
+      "Salt",
+      "Black pepper",
+      "Parsley"
+    ]
+  },
+  {
+    "name": "Berry Quinoa Salad",
+    "description": "A light and nutritious salad with quinoa, fresh berries, and a lemon vinaigrette.",
+    "steps": [
+      "Cook quinoa according to package instructions and let cool.",
+      "In a bowl, combine quinoa, strawberries, blueberries, and raspberries.",
+      "Whisk together lemon juice, olive oil, and honey for the dressing.",
+      "Toss salad with dressing and serve chilled."
+    ],
+    "ingredients": [
+      "Quinoa",
+      "Strawberry",
+      "Blueberry",
+      "Raspberry",
+      "Lemon juice",
+      "Olive oil",
+      "Honey"
+    ]
+  },
+  {
+    "name": "Cheddar and Bacon Stuffed Potatoes",
+    "description": "Baked potatoes stuffed with crispy bacon and melted cheddar cheese.",
+    "steps": [
+      "Bake potatoes until tender, then scoop out the flesh into a bowl.",
+      "Mash potato flesh with cheddar cheese, cooked bacon bits, and a dollop of sour cream.",
+      "Spoon mixture back into potato skins and bake for an additional 10 minutes."
+    ],
+    "ingredients": [
+      "Potato",
+      "Cheddar cheese",
+      "Bacon",
+      "Sour cream"
+    ]
+  },
+  {
+    "name": "Orange Chicken Stir-Fry",
+    "description": "A vibrant stir-fry with chicken and vegetables in a tangy orange sauce.",
+    "steps": [
+      "Cut chicken into bite-sized pieces and stir-fry in a hot pan.",
+      "Add chopped bell peppers, broccoli, and onions.",
+      "Stir in orange juice, soy sauce, and a touch of honey.",
+      "Cook until vegetables are tender and chicken is cooked through."
+    ],
+    "ingredients": [
+      "Chicken breast",
+      "Bell pepper",
+      "Broccoli",
+      "Onion",
+      "Orange juice",
+      "Soy sauce",
+      "Honey"
+    ]
+  },
+  {
+    "name": "Mango Coconut Smoothie",
+    "description": "A tropical smoothie with creamy coconut milk and sweet mango.",
+    "steps": [
+      "Blend mango chunks with coconut milk until smooth.",
+      "Add a bit of honey for sweetness, if desired.",
+      "Serve chilled with a slice of lime for garnish."
+    ],
+    "ingredients": [
+      "Mango",
+      "Coconut milk",
+      "Honey",
+      "Lime"
+    ]
+  },
+  {
+    "name": "Tomato Basil Soup",
+    "description": "A classic tomato soup with fresh basil and a touch of cream.",
+    "steps": [
+      "Sauté chopped onions and garlic until translucent.",
+      "Add diced tomatoes and simmer for 20 minutes.",
+      "Blend the mixture until smooth and stir in cream and fresh basil.",
+      "Season with salt and pepper to taste, then serve hot."
+    ],
+    "ingredients": [
+      "Tomato",
+      "Onion",
+      "Garlic",
+      "Cream",
+      "Basil",
+      "Salt",
+      "Black pepper"
+    ]
+  },
+  {
+    "name": "Quinoa and Black Bean Salad",
+    "description": "A hearty salad with quinoa, black beans, corn, and a zesty lime dressing.",
+    "steps": [
+      "Cook quinoa according to package instructions and let cool.",
+      "Mix cooked quinoa with black beans, corn, diced bell pepper, and chopped cilantro.",
+      "Whisk together lime juice, olive oil, and cumin for the dressing.",
+      "Toss salad with dressing and serve chilled."
+    ],
+    "ingredients": [
+      "Quinoa",
+      "Black beans",
+      "Corn",
+      "Bell pepper",
+      "Cilantro",
+      "Lime juice",
       "Olive oil",
       "Cumin"
     ]
   },
   {
-    "name": "Eggplant Lasagna",
-    "ingredients": [
-      "Eggplant",
-      "Tomato sauce",
-      "Mozzarella",
-      "Parmesan cheese",
-      "Basil",
-      "Lasagna noodles"
-    ]
-  },
-  {
-    "name": "Mango Salsa",
-    "ingredients": [
-      "Mango",
-      "Red onion",
-      "Cilantro",
-      "Lime",
-      "Jalapeño",
-      "Tomato"
-    ]
-  },
-  {
-    "name": "Pear and Gorgonzola Salad",
-    "ingredients": [
-      "Pear",
-      "Gorgonzola cheese",
-      "Walnut",
-      "Spinach",
-      "Balsamic vinegar",
-      "Olive oil"
-    ]
-  },
-  {
-    "name": "Peach Cobbler",
+    "name": "Peach and Berry Crisp",
+    "description": "A sweet and tangy fruit crisp topped with a crunchy oat topping.",
+    "steps": [
+      "Preheat oven to 350°F (175°C).",
+      "Combine sliced peaches and mixed berries in a baking dish.",
+      "Mix oats, flour, brown sugar, and butter to create a crumbly topping.",
+      "Spread topping over the fruit and bake for 35-40 minutes until bubbly and golden."
+    ],
     "ingredients": [
       "Peach",
+      "Berry (strawberry, blueberry, or raspberry)",
+      "Oats",
       "Flour",
-      "Sugar",
-      "Butter",
-      "Cinnamon",
-      "Baking powder"
+      "Brown sugar",
+      "Butter"
     ]
   },
   {
-    "name": "Teriyaki Chicken",
+    "name": "Chicken and Vegetable Skewers",
+    "description": "Grilled chicken and vegetables skewered and served with a tangy barbecue sauce.",
+    "steps": [
+      "Cut chicken breast and vegetables into chunks.",
+      "Thread chicken and vegetables onto skewers.",
+      "Grill skewers over medium heat, basting with barbecue sauce, until chicken is cooked through and vegetables are tender."
+    ],
     "ingredients": [
       "Chicken breast",
-      "Soy sauce",
-      "Honey",
-      "Ginger",
+      "Bell pepper",
+      "Onion",
+      "Barbecue sauce"
+    ]
+  },
+  {
+    "name": "Pasta with Garlic and Parmesan",
+    "description": "A simple yet delicious pasta dish with garlic and Parmesan cheese.",
+    "steps": [
+      "Cook pasta according to package instructions.",
+      "In a pan, sauté minced garlic in butter until fragrant.",
+      "Toss cooked pasta with garlic, melted butter, and grated Parmesan cheese.",
+      "Season with salt and black pepper and serve."
+    ],
+    "ingredients": [
+      "Spaghetti",
       "Garlic",
-      "Sesame seeds"
-    ]
-  },
-  {
-    "name": "Banana Bread",
-    "ingredients": [
-      "Banana",
-      "Flour",
-      "Sugar",
-      "Egg",
       "Butter",
-      "Baking soda"
-    ]
-  },
-  {
-    "name": "Tomato Basil Pasta",
-    "ingredients": [
-      "Pasta",
-      "Tomato",
-      "Basil",
-      "Garlic",
-      "Olive oil",
-      "Parmesan cheese"
-    ]
-  },
-  {
-    "name": "Maple Glazed Carrots",
-    "ingredients": [
-      "Carrot",
-      "Maple syrup",
-      "Butter",
-      "Thyme",
+      "Parmesan cheese",
       "Salt",
       "Black pepper"
     ]
   },
   {
-    "name": "Cranberry Sauce",
+    "name": "Lamb and Vegetable Stew",
+    "description": "A hearty stew with tender lamb and a mix of vegetables.",
+    "steps": [
+      "Brown lamb chunks in a pot and set aside.",
+      "Sauté onions, garlic, and carrots in the same pot.",
+      "Add lamb back to the pot along with potatoes, tomatoes, and broth.",
+      "Simmer until lamb is tender and vegetables are cooked through."
+    ],
     "ingredients": [
-      "Cranberries",
-      "Sugar",
-      "Orange juice",
-      "Water",
-      "Cinnamon",
-      "Nutmeg"
+      "Lamb",
+      "Onion",
+      "Garlic",
+      "Carrot",
+      "Potato",
+      "Tomato",
+      "Broth"
     ]
   },
   {
-    "name": "Grilled Asparagus with Lemon",
+    "name": "Baked Salmon with Lemon and Dill",
+    "description": "Salmon fillets baked with lemon slices and fresh dill.",
+    "steps": [
+      "Preheat oven to 375°F (190°C).",
+      "Place salmon fillets on a baking sheet and season with salt and black pepper.",
+      "Top with lemon slices and fresh dill.",
+      "Bake for 15-20 minutes or until salmon flakes easily with a fork."
+    ],
     "ingredients": [
-      "Asparagus",
+      "Salmon",
       "Lemon",
-      "Olive oil",
-      "Garlic",
-      "Parmesan cheese",
+      "Dill",
+      "Salt",
       "Black pepper"
     ]
   },
   {
+    "name": "Chocolate Almond Energy Balls",
+    "description": "No-bake energy balls made with cocoa, almonds, and a touch of honey.",
+    "steps": [
+      "In a bowl, mix almond flour, cocoa powder, and a pinch of salt.",
+      "Add honey and mix until combined.",
+      "Form mixture into small balls and refrigerate for at least 30 minutes before serving."
+    ],
+    "ingredients": [
+      "Almond",
+      "Cocoa powder",
+      "Honey",
+      "Salt"
+    ]
+  },
+  {
+    "name": "Veggie Omelette",
+    "description": "A fluffy omelette packed with bell peppers, spinach, and cheese.",
+    "steps": [
+      "Whisk eggs with a pinch of salt and black pepper.",
+      "Pour eggs into a hot, greased skillet.",
+      "Add diced bell peppers, spinach, and shredded cheddar cheese on one half.",
+      "Fold omelette and cook until eggs are set and cheese is melted."
+    ],
+    "ingredients": [
+      "Eggs",
+      "Bell pepper",
+      "Spinach",
+      "Cheddar cheese",
+      "Salt",
+      "Black pepper"
+    ]
+  },
+  {
+    "name": "Fruit Salad with Honey-Lime Dressing",
+    "description": "A refreshing fruit salad with a sweet and tangy honey-lime dressing.",
+    "steps": [
+      "Cut fruits into bite-sized pieces and combine in a large bowl.",
+      "Whisk together lime juice and honey for the dressing.",
+      "Pour dressing over fruit and toss to coat.",
+      "Serve immediately or chill in the refrigerator."
+    ],
+    "ingredients": [
+      "Apple",
+      "Banana",
+      "Orange",
+      "Grape",
+      "Honey",
+      "Lime juice"
+    ]
+  },
+  {
+    "name": "Broccoli and Cheddar Stuffed Potatoes",
+    "description": "Baked potatoes stuffed with a cheesy broccoli mixture.",
+    "steps": [
+      "Bake potatoes until tender and scoop out the flesh.",
+      "Mix potato flesh with steamed broccoli, cheddar cheese, and a bit of butter.",
+      "Spoon the mixture back into the potato skins.",
+      "Top with additional cheese and bake until golden and bubbly."
+    ],
+    "ingredients": [
+      "Potato",
+      "Broccoli",
+      "Cheddar cheese",
+      "Butter"
+    ]
+  },
+  {
+    "name": "Spaghetti Carbonara",
+    "description": "Classic Italian pasta with a creamy egg and cheese sauce.",
+    "steps": [
+      "Cook spaghetti according to package instructions.",
+      "In a separate pan, cook bacon until crispy, then crumble.",
+      "Whisk together eggs and Parmesan cheese.",
+      "Toss cooked spaghetti with bacon and egg mixture, allowing the heat to cook the eggs and form a creamy sauce."
+    ],
+    "ingredients": [
+      "Spaghetti",
+      "Bacon",
+      "Eggs",
+      "Parmesan cheese"
+    ]
+  },
+  {
+    "name": "Peach and Spinach Smoothie",
+    "description": "A refreshing smoothie combining peaches and spinach for a nutrient-packed drink.",
+    "steps": [
+      "Blend together peaches, spinach, and a splash of coconut milk.",
+      "Add a bit of honey for sweetness, if desired.",
+      "Serve chilled with a garnish of mint leaves."
+    ],
+    "ingredients": [
+      "Peach",
+      "Spinach",
+      "Coconut milk",
+      "Honey",
+      "Mint"
+    ]
+  },
+  {
+    "name": "Chicken Stir-Fry with Bell Peppers",
+    "description": "Quick and easy stir-fry with chicken and colorful bell peppers.",
+    "steps": [
+      "Slice chicken breast and bell peppers.",
+      "Stir-fry chicken in a hot pan with a bit of oil until cooked through.",
+      "Add bell peppers and cook until tender-crisp.",
+      "Season with soy sauce and serve over rice."
+    ],
+    "ingredients": [
+      "Chicken breast",
+      "Bell pepper",
+      "Soy sauce",
+      "Rice"
+    ]
+  },
+  {
+    "name": "Stuffed Bell Peppers",
+    "description": "Bell peppers filled with a savory mixture of beef, rice, and vegetables.",
+    "steps": [
+      "Preheat oven to 375°F (190°C).",
+      "Cut tops off bell peppers and remove seeds.",
+      "Mix cooked rice, ground beef, diced tomatoes, and seasoning.",
+      "Stuff the mixture into bell peppers and bake for 30-35 minutes."
+    ],
+    "ingredients": [
+      "Bell pepper",
+      "Rice",
+      "Beef",
+      "Tomato",
+      "Salt",
+      "Black pepper"
+    ]
+  },
+  {
+    "name": "Apple Cinnamon Oatmeal",
+    "description": "Warm oatmeal with diced apples and a touch of cinnamon.",
+    "steps": [
+      "Cook oats according to package instructions.",
+      "Stir in diced apples and a sprinkle of cinnamon.",
+      "Add a bit of milk or yogurt for creaminess, if desired."
+    ],
+    "ingredients": [
+      "Oats",
+      "Apple",
+      "Cinnamon",
+      "Milk",
+      "Yogurt"
+    ]
+  },
+  {
+    "name": "Turkey and Spinach Meatballs",
+    "description": "Healthy meatballs made with turkey and spinach, served with marinara sauce.",
+    "steps": [
+      "Mix ground turkey with chopped spinach, breadcrumbs, and seasoning.",
+      "Form into meatballs and bake until cooked through.",
+      "Serve with marinara sauce over pasta or on a sub roll."
+    ],
+    "ingredients": [
+      "Turkey",
+      "Spinach",
+      "Breadcrumbs",
+      "Marinara sauce"
+    ]
+  },
+  {
+    "name": "Mango Salsa",
+    "description": "A fresh and tangy salsa made with mango, bell pepper, and lime.",
+    "steps": [
+      "Dice mango and bell pepper.",
+      "Mix with chopped cilantro, lime juice, and a pinch of salt.",
+      "Serve with tortilla chips or as a topping for grilled meats."
+    ],
+    "ingredients": [
+      "Mango",
+      "Bell pepper",
+      "Cilantro",
+      "Lime juice",
+      "Salt"
+    ]
+  },
+  {
+    "name": "Pumpkin Spice Muffins",
+    "description": "Delicious muffins with pumpkin and warm spices.",
+    "steps": [
+      "Preheat oven to 350°F (175°C) and line muffin tin.",
+      "Mix together flour, sugar, baking powder, and pumpkin spice.",
+      "Add pumpkin puree, eggs, and butter, and mix until combined.",
+      "Pour batter into muffin tin and bake for 20-25 minutes."
+    ],
+    "ingredients": [
+      "Pumpkin",
+      "Flour",
+      "Sugar",
+      "Baking powder",
+      "Pumpkin spice",
+      "Eggs",
+      "Butter"
+    ]
+  },
+  {
+    "name": "Almond-Crusted Chicken Tenders",
+    "description": "Chicken tenders coated in a crunchy almond crust, baked until crispy.",
+    "steps": [
+      "Preheat oven to 400°F (200°C).",
+      "Coat chicken tenders in a mixture of crushed almonds and breadcrumbs.",
+      "Bake on a lined baking sheet until golden and cooked through."
+    ],
+    "ingredients": [
+      "Chicken tenders",
+      "Almond",
+      "Breadcrumbs"
+    ]
+  },
+  {
+    "name": "Greek Yogurt and Berry Parfait",
+    "description": "A healthy parfait with layers of Greek yogurt, fresh berries, and granola.",
+    "steps": [
+      "Layer Greek yogurt with fresh berries and granola in a glass.",
+      "Repeat layers until glass is filled.",
+      "Drizzle with honey and serve immediately."
+    ],
+    "ingredients": [
+      "Greek yogurt",
+      "Berry (strawberry, blueberry, or raspberry)",
+      "Granola",
+      "Honey"
+    ]
+  },
+  {
+    "name": "Chicken and Vegetable Stir-Fry",
+    "description": "A quick stir-fry with chicken and a variety of vegetables in a savory sauce.",
+    "steps": [
+      "Slice chicken breast and vegetables (carrot, bell pepper, broccoli).",
+      "Stir-fry chicken in a hot pan with a bit of oil until cooked through.",
+      "Add vegetables and cook until tender-crisp.",
+      "Season with soy sauce and serve over rice or noodles."
+    ],
+    "ingredients": [
+      "Chicken breast",
+      "Carrot",
+      "Bell pepper",
+      "Broccoli",
+      "Soy sauce",
+      "Rice"
+    ]
+  },
+  {
+    "name": "Creamy Tomato Soup",
+    "description": "A rich and creamy tomato soup made from fresh tomatoes and cream.",
+    "steps": [
+      "Sauté onions and garlic in a pot until translucent.",
+      "Add diced tomatoes and cook until they break down.",
+      "Blend the mixture until smooth and return to the pot.",
+      "Stir in cream and season with salt and pepper.",
+      "Simmer for a few minutes and serve hot."
+    ],
+    "ingredients": [
+      "Tomato",
+      "Onion",
+      "Garlic",
+      "Cream",
+      "Salt",
+      "Black pepper"
+    ]
+  },
+  {
+    "name": "Beef and Broccoli Stir-Fry",
+    "description": "Tender beef slices and broccoli stir-fried with a flavorful sauce.",
+    "steps": [
+      "Slice beef and broccoli into bite-sized pieces.",
+      "Stir-fry beef in a hot pan with a bit of oil until browned.",
+      "Add broccoli and cook until tender.",
+      "Mix soy sauce, garlic, and a bit of sugar for the sauce.",
+      "Pour sauce over the beef and broccoli, and serve over rice."
+    ],
+    "ingredients": [
+      "Beef",
+      "Broccoli",
+      "Soy sauce",
+      "Garlic",
+      "Sugar",
+      "Rice"
+    ]
+  },
+  {
+    "name": "Zucchini and Tomato Frittata",
+    "description": "A simple frittata with zucchini and tomato, perfect for breakfast or brunch.",
+    "steps": [
+      "Preheat oven to 375°F (190°C).",
+      "Sauté sliced zucchini and diced tomato in a skillet.",
+      "Beat eggs and pour over the vegetables.",
+      "Cook on the stove until the edges set, then transfer to the oven to finish cooking."
+    ],
+    "ingredients": [
+      "Zucchini",
+      "Tomato",
+      "Eggs",
+      "Salt",
+      "Black pepper"
+    ]
+  },
+  {
+    "name": "Coconut Rice Pudding",
+    "description": "Creamy rice pudding made with coconut milk and a touch of vanilla.",
+    "steps": [
+      "Cook rice according to package instructions.",
+      "In a separate pot, combine coconut milk, sugar, and vanilla extract.",
+      "Stir in cooked rice and simmer until thickened.",
+      "Serve warm or chilled with a sprinkle of cinnamon."
+    ],
+    "ingredients": [
+      "Rice",
+      "Coconut milk",
+      "Sugar",
+      "Vanilla extract",
+      "Cinnamon"
+    ]
+  },
+  {
+    "name": "Pork and Apple Skillet",
+    "description": "A savory pork dish with sweet apples and onions, cooked in a skillet.",
+    "steps": [
+      "Slice pork into medallions and season with salt and pepper.",
+      "Sear pork in a hot skillet until browned on both sides.",
+      "Add sliced apples and onions to the skillet.",
+      "Cook until pork is done and apples are tender."
+    ],
+    "ingredients": [
+      "Pork",
+      "Apple",
+      "Onion",
+      "Salt",
+      "Black pepper"
+    ]
+  },
+  {
+    "name": "Shrimp and Grape Salad",
+    "description": "A refreshing salad with shrimp and juicy grapes, dressed in a light vinaigrette.",
+    "steps": [
+      "Cook shrimp until pink and set aside.",
+      "Halve grapes and mix with shrimp.",
+      "Prepare a vinaigrette with olive oil, vinegar, and a touch of honey.",
+      "Toss shrimp and grapes with vinaigrette and serve over mixed greens."
+    ],
+    "ingredients": [
+      "Shrimp",
+      "Grape",
+      "Olive oil",
+      "Vinegar",
+      "Honey",
+      "Mixed greens"
+    ]
+  },
+  {
+    "name": "Lemon Garlic Chicken",
+    "description": "Chicken thighs marinated in a lemon garlic sauce and baked until crispy.",
+    "steps": [
+      "Mix lemon juice, garlic, and olive oil for the marinade.",
+      "Marinate chicken thighs in the mixture for at least 30 minutes.",
+      "Bake chicken in a preheated oven at 375°F (190°C) until cooked through and crispy."
+    ],
+    "ingredients": [
+      "Chicken thighs",
+      "Lemon",
+      "Garlic",
+      "Olive oil",
+      "Salt",
+      "Black pepper"
+    ]
+  },
+  {
+    "name": "Blueberry Almond Muffins",
+    "description": "Delicious muffins filled with fresh blueberries and crunchy almonds.",
+    "steps": [
+      "Preheat oven to 350°F (175°C) and line muffin tin.",
+      "Mix flour, sugar, and baking powder in a bowl.",
+      "Add milk, eggs, and melted butter, and mix until combined.",
+      "Fold in blueberries and chopped almonds, then pour into muffin tin.",
+      "Bake for 20-25 minutes until golden brown."
+    ],
+    "ingredients": [
+      "Flour",
+      "Sugar",
+      "Baking powder",
+      "Milk",
+      "Eggs",
+      "Butter",
+      "Blueberry",
+      "Almond"
+    ]
+  },
+  {
+    "name": "Pasta Primavera",
+    "description": "A colorful pasta dish with a variety of fresh vegetables and a light garlic sauce.",
+    "steps": [
+      "Cook pasta according to package instructions.",
+      "Sauté garlic and mixed vegetables (bell pepper, zucchini, carrot) in a pan.",
+      "Add cooked pasta to the pan with a splash of pasta cooking water.",
+      "Season with salt, pepper, and a bit of Parmesan cheese."
+    ],
+    "ingredients": [
+      "Spaghetti",
+      "Bell pepper",
+      "Zucchini",
+      "Carrot",
+      "Garlic",
+      "Parmesan cheese",
+      "Salt",
+      "Black pepper"
+    ]
+  },
+  {
+    "name": "Grilled Salmon with Lemon and Herbs",
+    "description": "Salmon fillets grilled with lemon slices and fresh herbs.",
+    "steps": [
+      "Season salmon fillets with salt, pepper, and fresh herbs (dill or parsley).",
+      "Place lemon slices on top of the fillets.",
+      "Grill until salmon is cooked through and flakes easily with a fork."
+    ],
+    "ingredients": [
+      "Salmon",
+      "Lemon",
+      "Fresh herbs (dill or parsley)",
+      "Salt",
+      "Black pepper"
+    ]
+  },
+  {
+    "name": "Spicy Shrimp Tacos",
+    "description": "Tacos filled with spicy shrimp, crisp slaw, and a tangy lime crema.",
+    "steps": [
+      "Mix shrimp with chili powder, cumin, and paprika.",
+      "Sauté shrimp in a hot pan until cooked through.",
+      "Prepare slaw with shredded cabbage and a vinaigrette.",
+      "Warm tortillas in a dry pan or oven.",
+      "Assemble tacos with shrimp, slaw, and a drizzle of lime crema."
+    ],
+    "ingredients": [
+      "Shrimp",
+      "Chili powder",
+      "Cumin",
+      "Paprika",
+      "Tortillas",
+      "Cabbage",
+      "Lime",
+      "Cream"
+    ]
+  },
+  {
+    "name": "Chicken and Vegetable Stir-Fry",
+    "description": "A quick and healthy stir-fry with chicken and a mix of colorful vegetables.",
+    "steps": [
+      "Slice chicken breast and marinate with soy sauce.",
+      "Stir-fry chicken in a hot pan until cooked through.",
+      "Add sliced bell peppers, carrots, and broccoli to the pan.",
+      "Stir-fry until vegetables are tender-crisp.",
+      "Serve with rice or noodles."
+    ],
+    "ingredients": [
+      "Chicken breast",
+      "Bell pepper",
+      "Carrot",
+      "Broccoli",
+      "Soy sauce",
+      "Rice"
+    ]
+  },
+  {
+    "name": "Beef and Vegetable Stew",
+    "description": "A hearty stew with tender beef chunks and a variety of vegetables.",
+    "steps": [
+      "Brown beef chunks in a pot.",
+      "Add diced onions, carrots, potatoes, and garlic.",
+      "Pour in beef broth and add herbs.",
+      "Simmer until beef is tender and vegetables are cooked through.",
+      "Season with salt and pepper before serving."
+    ],
+    "ingredients": [
+      "Beef",
+      "Onion",
+      "Carrot",
+      "Potato",
+      "Garlic",
+      "Beef broth",
+      "Salt",
+      "Pepper",
+      "Thyme"
+    ]
+  },
+  {
+    "name": "Pineapple Fried Rice",
+    "description": "A tropical twist on fried rice with pineapple, vegetables, and a hint of soy sauce.",
+    "steps": [
+      "Cook rice and let it cool.",
+      "Sauté chopped onions, bell peppers, and garlic.",
+      "Add diced pineapple and cooked rice to the pan.",
+      "Stir in soy sauce and cook until everything is heated through.",
+      "Garnish with chopped cilantro."
+    ],
+    "ingredients": [
+      "Rice",
+      "Onion",
+      "Bell pepper",
+      "Garlic",
+      "Pineapple",
+      "Soy sauce",
+      "Cilantro"
+    ]
+  },
+  {
+    "name": "Salmon with Lemon and Dill",
+    "description": "Baked salmon fillets with a fresh lemon and dill seasoning.",
+    "steps": [
+      "Season salmon fillets with salt, pepper, and dill.",
+      "Place salmon on a baking sheet and top with lemon slices.",
+      "Bake until salmon is cooked through.",
+      "Serve with a side of steamed vegetables."
+    ],
+    "ingredients": [
+      "Salmon",
+      "Lemon",
+      "Dill",
+      "Salt",
+      "Pepper",
+      "Vegetables"
+    ]
+  },
+  {
+    "name": "Spaghetti Carbonara",
+    "description": "A creamy pasta dish with bacon, Parmesan cheese, and a touch of black pepper.",
+    "steps": [
+      "Cook spaghetti according to package instructions.",
+      "Fry bacon until crispy, then chop into pieces.",
+      "Mix eggs with grated Parmesan cheese.",
+      "Toss cooked spaghetti with bacon and egg mixture.",
+      "Season with black pepper and serve."
+    ],
+    "ingredients": [
+      "Spaghetti",
+      "Bacon",
+      "Parmesan cheese",
+      "Eggs",
+      "Black pepper"
+    ]
+  },
+  {
+    "name": "Mango and Blueberry Smoothie",
+    "description": "A refreshing smoothie made with ripe mangoes and juicy blueberries.",
+    "steps": [
+      "Blend mango chunks, blueberries, and yogurt until smooth.",
+      "Add a splash of orange juice for extra flavor.",
+      "Serve chilled with a garnish of mint leaves."
+    ],
+    "ingredients": [
+      "Mango",
+      "Blueberry",
+      "Yogurt",
+      "Orange juice",
+      "Mint"
+    ]
+  },
+  {
+    "name": "Chicken and Spinach Quesadillas",
+    "description": "Cheesy quesadillas filled with chicken and fresh spinach.",
+    "steps": [
+      "Cook chicken breast and shred it.",
+      "Sauté spinach until wilted.",
+      "Place chicken and spinach between two tortillas with cheese.",
+      "Cook in a skillet until cheese is melted and tortillas are golden brown.",
+      "Cut into wedges and serve with salsa."
+    ],
+    "ingredients": [
+      "Chicken breast",
+      "Spinach",
+      "Tortillas",
+      "Cheese",
+      "Salsa"
+    ]
+  },
+  {
+    "name": "Tomato and Basil Bruschetta",
+    "description": "Toasted bread topped with a mixture of tomatoes, basil, and garlic.",
+    "steps": [
+      "Toast slices of bread until crispy.",
+      "Mix diced tomatoes, minced garlic, and chopped basil.",
+      "Season with salt and pepper.",
+      "Top toasted bread with tomato mixture and serve."
+    ],
+    "ingredients": [
+      "Bread",
+      "Tomato",
+      "Garlic",
+      "Basil",
+      "Salt",
+      "Pepper"
+    ]
+  },
+  {
+    "name": "Creamy Pumpkin Soup",
+    "description": "A smooth and creamy soup made with fresh pumpkin and spices.",
+    "steps": [
+      "Sauté onions and garlic in a pot.",
+      "Add pumpkin puree and vegetable broth.",
+      "Season with cinnamon, nutmeg, and thyme.",
+      "Simmer until flavors are well combined.",
+      "Blend until smooth and stir in cream before serving."
+    ],
+    "ingredients": [
+      "Pumpkin",
+      "Onion",
+      "Garlic",
+      "Vegetable broth",
+      "Cinnamon",
+      "Nutmeg",
+      "Thyme",
+      "Cream"
+    ]
+  },
+  {
+    "name": "Pesto Pasta Salad",
+    "description": "A cold pasta salad with a fresh pesto dressing and a mix of vegetables.",
+    "steps": [
+      "Cook pasta and let it cool.",
+      "Toss pasta with pesto sauce.",
+      "Add diced bell peppers, cherry tomatoes, and black olives.",
+      "Season with salt and pepper.",
+      "Serve chilled or at room temperature."
+    ],
+    "ingredients": [
+      "Pasta",
+      "Pesto",
+      "Bell pepper",
+      "Tomato",
+      "Olives",
+      "Salt",
+      "Pepper"
+    ]
+  },
+  {
+    "name": "Greek Salad",
+    "description": "A refreshing salad with tomatoes, cucumbers, olives, and feta cheese.",
+    "steps": [
+      "Chop tomatoes and cucumbers into bite-sized pieces.",
+      "Add sliced olives and crumbled feta cheese.",
+      "Toss with olive oil, oregano, and a splash of vinegar.",
+      "Serve chilled."
+    ],
+    "ingredients": [
+      "Tomato",
+      "Cucumber",
+      "Olives",
+      "Feta cheese",
+      "Olive oil",
+      "Oregano",
+      "Vinegar"
+    ]
+  },
+  {
+    "name": "Beef Tacos with Salsa",
+    "description": "Tacos filled with seasoned ground beef and topped with a fresh salsa.",
+    "steps": [
+      "Cook ground beef with cumin, paprika, and black pepper.",
+      "Prepare salsa with diced tomatoes, onions, and cilantro.",
+      "Warm taco shells.",
+      "Fill tacos with seasoned beef and top with salsa.",
+      "Serve with lime wedges."
+    ],
+    "ingredients": [
+      "Ground beef",
+      "Cumin",
+      "Paprika",
+      "Black pepper",
+      "Tomato",
+      "Onion",
+      "Cilantro",
+      "Taco shells",
+      "Lime"
+    ]
+  },
+  {
+    "name": "Stuffed Bell Peppers",
+    "description": "Bell peppers stuffed with a savory mixture of rice, ground beef, and vegetables.",
+    "steps": [
+      "Cook rice and mix with cooked ground beef, diced tomatoes, and spices.",
+      "Cut the tops off bell peppers and remove seeds.",
+      "Stuff peppers with the rice mixture.",
+      "Bake until peppers are tender.",
+      "Top with shredded cheese if desired."
+    ],
+    "ingredients": [
+      "Bell pepper",
+      "Rice",
+      "Ground beef",
+      "Tomato",
+      "Cheese",
+      "Salt",
+      "Pepper"
+    ]
+  },
+  {
+    "name": "Quinoa Salad with Mango and Black Beans",
+    "description": "A nutritious salad with quinoa, sweet mango, black beans, and a lime dressing.",
+    "steps": [
+      "Cook quinoa and let it cool.",
+      "Mix quinoa with diced mango, black beans, and chopped cilantro.",
+      "Toss with lime juice and olive oil.",
+      "Season with salt and pepper.",
+      "Serve chilled."
+    ],
+    "ingredients": [
+      "Quinoa",
+      "Mango",
+      "Black beans",
+      "Cilantro",
+      "Lime",
+      "Olive oil",
+      "Salt",
+      "Pepper"
+    ]
+  },
+  {
+    "name": "Chicken Parmesan",
+    "description": "Breaded chicken breasts topped with marinara sauce and melted mozzarella cheese.",
+    "steps": [
+      "Bread chicken breasts and pan-fry until golden.",
+      "Place chicken in a baking dish and top with marinara sauce and mozzarella cheese.",
+      "Bake until chicken is cooked through and cheese is melted.",
+      "Serve with spaghetti or a side salad."
+    ],
+    "ingredients": [
+      "Chicken breast",
+      "Breadcrumbs",
+      "Marinara sauce",
+      "Mozzarella cheese",
+      "Spaghetti",
+      "Salt",
+      "Pepper"
+    ]
+  },
+  {
+    "name": "Apple Cinnamon Oatmeal",
+    "description": "A warm and comforting oatmeal with apples and a hint of cinnamon.",
+    "steps": [
+      "Cook oats according to package instructions.",
+      "Stir in diced apples, cinnamon, and a touch of honey.",
+      "Simmer until apples are tender.",
+      "Serve with a sprinkle of nuts if desired."
+    ],
+    "ingredients": [
+      "Oats",
+      "Apple",
+      "Cinnamon",
+      "Honey",
+      "Nuts"
+    ]
+  },
+  {
+    "name": "Pork Stir-Fry with Broccoli",
+    "description": "A quick stir-fry with tender pork and crisp broccoli in a savory sauce.",
+    "steps": [
+      "Slice pork and marinate in soy sauce.",
+      "Stir-fry pork in a hot pan until cooked through.",
+      "Add broccoli and cook until tender-crisp.",
+      "Add a splash of soy sauce and serve over rice."
+    ],
+    "ingredients": [
+      "Pork",
+      "Broccoli",
+      "Soy sauce",
+      "Rice"
+    ]
+  },
+  {
+    "name": "Strawberry and Spinach Salad",
+    "description": "A light salad with fresh spinach, juicy strawberries, and a balsamic vinaigrette.",
+    "steps": [
+      "Combine fresh spinach and sliced strawberries in a bowl.",
+      "Toss with a balsamic vinaigrette.",
+      "Top with crumbled feta cheese and sliced almonds.",
+      "Serve immediately."
+    ],
+    "ingredients": [
+      "Spinach",
+      "Strawberry",
+      "Balsamic vinaigrette",
+      "Feta cheese",
+      "Almonds"
+    ]
+  },
+  {
+    "name": "Coconut Shrimp Curry",
+    "description": "A rich and creamy curry with shrimp and coconut milk, served over rice.",
+    "steps": [
+      "Sauté onions and garlic in a pan.",
+      "Add curry powder and cook briefly.",
+      "Stir in coconut milk and shrimp.",
+      "Simmer until shrimp are cooked through.",
+      "Serve over rice."
+    ],
+    "ingredients": [
+      "Shrimp",
+      "Onion",
+      "Garlic",
+      "Curry powder",
+      "Coconut milk",
+      "Rice"
+    ]
+  },
+  {
+    "name": "Mango Chicken Skewers",
+    "description": "Grilled chicken skewers marinated in a sweet and tangy mango sauce.",
+    "steps": [
+      "Marinate chicken pieces in a mango sauce.",
+      "Thread chicken onto skewers.",
+      "Grill until cooked through and slightly charred.",
+      "Serve with a side of quinoa or a fresh salad."
+    ],
+    "ingredients": [
+      "Chicken breast",
+      "Mango",
+      "Skewers",
+      "Quinoa",
+      "Salad"
+    ]
+  },
+  {
+    "name": "Lemon Garlic Pasta",
+    "description": "A simple pasta dish with a zesty lemon and garlic sauce.",
+    "steps": [
+      "Cook pasta according to package instructions.",
+      "Sauté garlic in olive oil until fragrant.",
+      "Add lemon juice and zest to the pan.",
+      "Toss pasta with the lemon garlic sauce.",
+      "Top with grated Parmesan cheese."
+    ],
+    "ingredients": [
+      "Pasta",
+      "Garlic",
+      "Lemon",
+      "Olive oil",
+      "Parmesan cheese"
+    ]
+  },
+  {
+    "name": "Spicy Shrimp Tacos",
+    "description": "Tacos filled with spicy shrimp and topped with a tangy slaw.",
+    "steps": [
+      "Season shrimp with chili powder, cumin, and garlic powder.",
+      "Cook shrimp in a hot pan until pink and cooked through.",
+      "Prepare a slaw with shredded cabbage, lime juice, and cilantro.",
+      "Warm taco shells and fill with shrimp and slaw.",
+      "Serve with a squeeze of lime."
+    ],
+    "ingredients": [
+      "Shrimp",
+      "Chili powder",
+      "Cumin",
+      "Garlic powder",
+      "Cabbage",
+      "Lime",
+      "Cilantro",
+      "Taco shells"
+    ]
+  },
+  {
+    "name": "Beef and Broccoli Stir-Fry",
+    "description": "A classic stir-fry with tender beef and crisp broccoli in a savory sauce.",
+    "steps": [
+      "Slice beef thinly and marinate in soy sauce and garlic.",
+      "Stir-fry beef in a hot pan until browned.",
+      "Add broccoli and cook until tender-crisp.",
+      "Add soy sauce and a splash of water to make a sauce.",
+      "Serve over steamed rice."
+    ],
+    "ingredients": [
+      "Beef",
+      "Broccoli",
+      "Soy sauce",
+      "Garlic",
+      "Rice"
+    ]
+  },
+  {
+    "name": "Sweet Potato and Black Bean Chili",
+    "description": "A hearty chili with sweet potatoes and black beans, spiced to perfection.",
+    "steps": [
+      "Sauté onions and garlic in a pot.",
+      "Add diced sweet potatoes, black beans, and chili powder.",
+      "Pour in diced tomatoes and simmer until sweet potatoes are tender.",
+      "Serve with a dollop of sour cream and chopped cilantro."
+    ],
+    "ingredients": [
+      "Sweet potato",
+      "Black beans",
+      "Onion",
+      "Garlic",
+      "Chili powder",
+      "Diced tomatoes",
+      "Sour cream",
+      "Cilantro"
+    ]
+  },
+  {
+    "name": "Spinach and Mushroom Frittata",
+    "description": "A savory frittata with spinach and mushrooms, perfect for breakfast or brunch.",
+    "steps": [
+      "Sauté mushrooms and spinach in a skillet.",
+      "Beat eggs and pour over the vegetables.",
+      "Cook on the stovetop until edges are set, then transfer to the oven to finish cooking.",
+      "Slice and serve warm."
+    ],
+    "ingredients": [
+      "Spinach",
+      "Mushrooms",
+      "Eggs",
+      "Salt",
+      "Pepper"
+    ]
+  },
+  {
+    "name": "Mango Salsa Chicken",
+    "description": "Chicken breasts topped with a fresh mango salsa, served with a side of rice.",
+    "steps": [
+      "Grill or bake chicken breasts until cooked through.",
+      "Prepare salsa with diced mango, red onion, and cilantro.",
+      "Top chicken with mango salsa and serve with rice."
+    ],
+    "ingredients": [
+      "Chicken breast",
+      "Mango",
+      "Red onion",
+      "Cilantro",
+      "Rice"
+    ]
+  },
+  {
+    "name": "Lemon Herb Salmon",
+    "description": "Baked salmon with a zesty lemon and herb seasoning.",
+    "steps": [
+      "Season salmon with lemon juice, thyme, and rosemary.",
+      "Bake until salmon is flaky and cooked through.",
+      "Serve with a side of steamed vegetables or quinoa."
+    ],
+    "ingredients": [
+      "Salmon",
+      "Lemon",
+      "Thyme",
+      "Rosemary",
+      "Vegetables",
+      "Quinoa"
+    ]
+  },
+  {
+    "name": "Roasted Garlic Potato Wedges",
+    "description": "Crispy potato wedges seasoned with roasted garlic and herbs.",
+    "steps": [
+      "Cut potatoes into wedges and toss with olive oil, garlic, and herbs.",
+      "Roast in the oven until golden and crispy.",
+      "Serve with a side of ketchup or aioli."
+    ],
+    "ingredients": [
+      "Potato",
+      "Garlic",
+      "Olive oil",
+      "Herbs",
+      "Ketchup",
+      "Aioli"
+    ]
+  },
+  {
+    "name": "Pesto Pasta with Cherry Tomatoes",
+    "description": "Pasta tossed with basil pesto and fresh cherry tomatoes.",
+    "steps": [
+      "Cook pasta according to package instructions.",
+      "Toss cooked pasta with basil pesto and halved cherry tomatoes.",
+      "Serve with grated Parmesan cheese."
+    ],
+    "ingredients": [
+      "Pasta",
+      "Basil pesto",
+      "Cherry tomatoes",
+      "Parmesan cheese"
+    ]
+  },
+  {
+    "name": "Apple Cinnamon Muffins",
+    "description": "Moist muffins with apple chunks and a hint of cinnamon.",
+    "steps": [
+      "Mix flour, sugar, cinnamon, and baking powder.",
+      "Stir in chopped apples and milk.",
+      "Spoon batter into muffin tins and bake until golden brown.",
+      "Cool before serving."
+    ],
+    "ingredients": [
+      "Apple",
+      "Flour",
+      "Sugar",
+      "Cinnamon",
+      "Baking powder",
+      "Milk"
+    ]
+  },
+  {
+    "name": "Vegetable Quiche",
+    "description": "A savory quiche filled with mixed vegetables and cheese.",
+    "steps": [
+      "Prepare pie crust and fit into a pie dish.",
+      "Mix eggs with cream, cheese, and chopped vegetables.",
+      "Pour mixture into the crust and bake until set.",
+      "Cool slightly before slicing."
+    ],
+    "ingredients": [
+      "Pie crust",
+      "Eggs",
+      "Cream",
+      "Cheese",
+      "Mixed vegetables"
+    ]
+  },
+  {
+    "name": "Orange Glazed Chicken",
+    "description": "Chicken with a sweet and tangy orange glaze.",
+    "steps": [
+      "Cook chicken breasts in a hot pan.",
+      "Prepare glaze with orange juice, soy sauce, and honey.",
+      "Brush glaze over chicken and cook until sauce thickens.",
+      "Serve with a side of rice or vegetables."
+    ],
+    "ingredients": [
+      "Chicken breast",
+      "Orange juice",
+      "Soy sauce",
+      "Honey",
+      "Rice",
+      "Vegetables"
+    ]
+  },
+  {
+    "name": "Pineapple Chicken Skewers",
+    "description": "Grilled chicken skewers with chunks of pineapple and a sweet teriyaki glaze.",
+    "steps": [
+      "Cut chicken into chunks and marinate in teriyaki sauce.",
+      "Thread chicken and pineapple onto skewers.",
+      "Grill until chicken is cooked through and pineapple is caramelized.",
+      "Serve with a side of rice or salad."
+    ],
+    "ingredients": [
+      "Chicken breast",
+      "Pineapple",
+      "Teriyaki sauce",
+      "Rice",
+      "Salad"
+    ]
+  },
+  {
+    "name": "Stuffed Bell Peppers",
+    "description": "Bell peppers stuffed with a flavorful mixture of rice, ground beef, and vegetables.",
+    "steps": [
+      "Preheat oven to 375°F (190°C).",
+      "Cook rice and mix with cooked ground beef, onions, and spices.",
+      "Stuff bell peppers with the mixture.",
+      "Bake until peppers are tender.",
+      "Top with cheese and bake until melted."
+    ],
+    "ingredients": [
+      "Bell pepper",
+      "Rice",
+      "Ground beef",
+      "Onion",
+      "Spices",
+      "Cheese"
+    ]
+  },
+  {
+    "name": "Creamy Tomato Soup",
+    "description": "A rich and creamy tomato soup with a hint of basil.",
+    "steps": [
+      "Sauté onions and garlic in a pot.",
+      "Add diced tomatoes, basil, and broth.",
+      "Simmer until flavors meld.",
+      "Blend until smooth and stir in cream.",
+      "Serve hot with a side of bread."
+    ],
+    "ingredients": [
+      "Tomato",
+      "Onion",
+      "Garlic",
+      "Basil",
+      "Broth",
+      "Cream",
+      "Bread"
+    ]
+  },
+  {
+    "name": "Chicken Caesar Salad",
+    "description": "A classic Caesar salad with grilled chicken and a creamy Caesar dressing.",
+    "steps": [
+      "Grill chicken breasts and slice.",
+      "Toss romaine lettuce with Caesar dressing.",
+      "Top with grilled chicken, croutons, and Parmesan cheese.",
+      "Serve immediately."
+    ],
+    "ingredients": [
+      "Chicken breast",
+      "Romaine lettuce",
+      "Caesar dressing",
+      "Croutons",
+      "Parmesan cheese"
+    ]
+  },
+  {
     "name": "Baked Ziti",
+    "description": "Ziti pasta baked with marinara sauce and a blend of cheeses.",
+    "steps": [
+      "Cook ziti according to package instructions.",
+      "Mix with marinara sauce and half of the cheese.",
+      "Transfer to a baking dish and top with remaining cheese.",
+      "Bake until bubbly and golden."
+    ],
     "ingredients": [
       "Ziti pasta",
-      "Tomato sauce",
-      "Mozzarella",
-      "Ricotta cheese",
+      "Marinara sauce",
+      "Cheese"
+    ]
+  },
+  {
+    "name": "Coconut Curry Shrimp",
+    "description": "Shrimp cooked in a creamy coconut curry sauce.",
+    "steps": [
+      "Sauté shrimp with curry powder and garlic.",
+      "Add coconut milk and simmer until shrimp are cooked through.",
+      "Serve with rice or naan bread."
+    ],
+    "ingredients": [
+      "Shrimp",
+      "Curry powder",
+      "Garlic",
+      "Coconut milk",
+      "Rice",
+      "Naan bread"
+    ]
+  },
+  {
+    "name": "Greek Salad",
+    "description": "A fresh salad with cucumbers, tomatoes, olives, and feta cheese, dressed with olive oil and lemon.",
+    "steps": [
+      "Chop cucumbers, tomatoes, and red onion.",
+      "Mix with olives and feta cheese.",
+      "Dress with olive oil, lemon juice, and oregano.",
+      "Serve chilled."
+    ],
+    "ingredients": [
+      "Cucumber",
+      "Tomato",
+      "Red onion",
+      "Olives",
+      "Feta cheese",
+      "Olive oil",
+      "Lemon juice",
+      "Oregano"
+    ]
+  },
+  {
+    "name": "Honey Mustard Glazed Carrots",
+    "description": "Carrots glazed with a sweet and tangy honey mustard sauce.",
+    "steps": [
+      "Sauté carrots until tender.",
+      "Mix honey, mustard, and a little butter.",
+      "Pour glaze over carrots and cook until sauce thickens.",
+      "Serve warm."
+    ],
+    "ingredients": [
+      "Carrot",
+      "Honey",
+      "Mustard",
+      "Butter"
+    ]
+  },
+  {
+    "name": "Peach Cobbler",
+    "description": "A classic dessert with sweet peaches and a biscuit topping.",
+    "steps": [
+      "Mix sliced peaches with sugar and lemon juice.",
+      "Pour into a baking dish and top with biscuit dough.",
+      "Bake until peaches are bubbly and topping is golden."
+    ],
+    "ingredients": [
+      "Peach",
+      "Sugar",
+      "Lemon juice",
+      "Biscuit dough"
+    ]
+  },
+  {
+    "name": "Almond-Crusted Salmon",
+    "description": "Salmon fillets coated with a crunchy almond crust, baked until crispy.",
+    "steps": [
+      "Coat salmon with a mixture of crushed almonds and breadcrumbs.",
+      "Bake until salmon is cooked through and crust is golden.",
+      "Serve with a side of steamed vegetables."
+    ],
+    "ingredients": [
+      "Salmon",
+      "Almond",
+      "Breadcrumbs",
+      "Vegetables"
+    ]
+  },
+  {
+    "name": "Blueberry Muffins",
+    "description": "Soft and fluffy muffins packed with juicy blueberries.",
+    "steps": [
+      "Preheat oven to 375°F (190°C).",
+      "Mix flour, sugar, baking powder, and salt.",
+      "In another bowl, whisk eggs, milk, and melted butter.",
+      "Combine wet and dry ingredients, then fold in blueberries.",
+      "Spoon batter into muffin tins and bake until golden."
+    ],
+    "ingredients": [
+      "Blueberry",
+      "Flour",
+      "Sugar",
+      "Baking powder",
+      "Salt",
+      "Eggs",
+      "Milk",
+      "Butter"
+    ]
+  },
+  {
+    "name": "Spinach and Feta Stuffed Chicken",
+    "description": "Chicken breasts stuffed with a savory mixture of spinach and feta cheese.",
+    "steps": [
+      "Preheat oven to 375°F (190°C).",
+      "Mix spinach and feta cheese.",
+      "Stuff chicken breasts with the mixture and secure with toothpicks.",
+      "Season with salt and pepper, and bake until chicken is cooked through."
+    ],
+    "ingredients": [
+      "Chicken breast",
+      "Spinach",
+      "Feta cheese",
+      "Salt",
+      "Pepper"
+    ]
+  },
+  {
+    "name": "Lemon Garlic Shrimp Pasta",
+    "description": "Pasta tossed with shrimp in a tangy lemon garlic sauce.",
+    "steps": [
+      "Cook pasta according to package instructions.",
+      "Sauté shrimp with garlic and lemon juice.",
+      "Toss cooked pasta with shrimp and a drizzle of olive oil.",
+      "Garnish with parsley and serve."
+    ],
+    "ingredients": [
+      "Shrimp",
+      "Garlic",
+      "Lemon juice",
+      "Pasta",
+      "Olive oil",
+      "Parsley"
+    ]
+  },
+  {
+    "name": "Pumpkin Soup",
+    "description": "A creamy and comforting soup made with pureed pumpkin and spices.",
+    "steps": [
+      "Sauté onions and garlic in a pot.",
+      "Add pumpkin puree, vegetable broth, and spices.",
+      "Simmer until flavors are combined.",
+      "Blend until smooth and stir in cream.",
+      "Serve with a sprinkle of nutmeg."
+    ],
+    "ingredients": [
+      "Pumpkin",
+      "Onion",
+      "Garlic",
+      "Vegetable broth",
+      "Spices",
+      "Cream",
+      "Nutmeg"
+    ]
+  },
+  {
+    "name": "Bacon and Egg Breakfast Burrito",
+    "description": "A hearty breakfast burrito filled with crispy bacon, eggs, and cheese.",
+    "steps": [
+      "Cook bacon until crispy and set aside.",
+      "Scramble eggs and cook until just set.",
+      "Warm tortillas and fill with bacon, eggs, and cheese.",
+      "Roll up and serve with salsa or hot sauce."
+    ],
+    "ingredients": [
+      "Bacon",
+      "Eggs",
+      "Cheese",
+      "Tortillas",
+      "Salsa",
+      "Hot sauce"
+    ]
+  },
+  {
+    "name": "Orange Glazed Chicken",
+    "description": "Chicken breasts with a sweet and tangy orange glaze.",
+    "steps": [
+      "Cook chicken breasts until golden.",
+      "In a pan, combine orange juice, soy sauce, and honey.",
+      "Simmer until thickened, then pour over chicken.",
+      "Serve with rice and steamed vegetables."
+    ],
+    "ingredients": [
+      "Chicken breast",
+      "Orange juice",
+      "Soy sauce",
+      "Honey",
+      "Rice",
+      "Vegetables"
+    ]
+  },
+  {
+    "name": "Vegetable Stir-Fry",
+    "description": "A colorful stir-fry with a mix of vegetables in a savory sauce.",
+    "steps": [
+      "Sauté garlic and onion in a wok.",
+      "Add vegetables and cook until tender-crisp.",
+      "Stir in soy sauce and a touch of honey.",
+      "Serve over rice or noodles."
+    ],
+    "ingredients": [
+      "Garlic",
+      "Onion",
+      "Bell pepper",
+      "Broccoli",
+      "Carrot",
+      "Soy sauce",
+      "Honey",
+      "Rice",
+      "Noodles"
+    ]
+  },
+  {
+    "name": "Almond-Crusted Chicken",
+    "description": "Chicken breasts coated with a crunchy almond crust, baked to perfection.",
+    "steps": [
+      "Preheat oven to 400°F (200°C).",
+      "Coat chicken with a mixture of crushed almonds and breadcrumbs.",
+      "Bake until chicken is cooked through and crust is golden.",
+      "Serve with a side of steamed vegetables."
+    ],
+    "ingredients": [
+      "Chicken breast",
+      "Almond",
+      "Breadcrumbs",
+      "Vegetables"
+    ]
+  },
+  {
+    "name": "Banana Bread",
+    "description": "A moist and flavorful banana bread perfect for breakfast or a snack.",
+    "steps": [
+      "Preheat oven to 350°F (175°C).",
+      "Mix mashed bananas with sugar, eggs, and melted butter.",
+      "Add flour, baking powder, and salt.",
+      "Pour into a loaf pan and bake until a toothpick comes out clean."
+    ],
+    "ingredients": [
+      "Banana",
+      "Sugar",
+      "Eggs",
+      "Butter",
+      "Flour",
+      "Baking powder",
+      "Salt"
+    ]
+  },
+  {
+    "name": "Pork Tenderloin with Apple Sauce",
+    "description": "Tender pork loin served with a sweet and savory apple sauce.",
+    "steps": [
+      "Season pork tenderloin with salt and pepper.",
+      "Roast until pork is cooked through.",
+      "In a saucepan, cook apples with sugar and spices until tender.",
+      "Serve pork with apple sauce and a side of mashed potatoes."
+    ],
+    "ingredients": [
+      "Pork",
+      "Apple",
+      "Sugar",
+      "Spices",
+      "Mashed potatoes"
+    ]
+  },
+  {
+    "name": "Strawberry Spinach Salad",
+    "description": "A refreshing salad with fresh spinach, sweet strawberries, and a light vinaigrette.",
+    "steps": [
+      "Toss fresh spinach with sliced strawberries.",
+      "Drizzle with a vinaigrette made of olive oil, balsamic vinegar, and honey.",
+      "Top with sliced almonds and crumbled feta cheese."
+    ],
+    "ingredients": [
+      "Spinach",
+      "Strawberry",
+      "Olive oil",
+      "Balsamic vinegar",
+      "Honey",
+      "Almond",
+      "Feta cheese"
+    ]
+  },
+  {
+    "name": "Creamy Mushroom Risotto",
+    "description": "A rich and creamy risotto with tender mushrooms and Parmesan cheese.",
+    "steps": [
+      "Sauté mushrooms and onions in butter.",
+      "Add rice and cook for a few minutes.",
+      "Gradually add broth while stirring until rice is creamy and tender.",
+      "Stir in Parmesan cheese and serve hot."
+    ],
+    "ingredients": [
+      "Mushroom",
+      "Onion",
+      "Butter",
+      "Rice",
+      "Broth",
+      "Parmesan cheese"
+    ]
+  },
+  {
+    "name": "Sweet and Sour Pork",
+    "description": "Tender pork pieces in a tangy sweet and sour sauce with bell peppers and pineapple.",
+    "steps": [
+      "Cook pork until browned and set aside.",
+      "In a pan, combine pineapple, bell peppers, and a sweet and sour sauce.",
+      "Add cooked pork back to the pan and simmer until heated through.",
+      "Serve with rice."
+    ],
+    "ingredients": [
+      "Pork",
+      "Pineapple",
+      "Bell pepper",
+      "Sweet and sour sauce",
+      "Rice"
+    ]
+  },
+  {
+    "name": "Peach Cobbler",
+    "description": "A warm and comforting dessert with sweet peaches and a crumbly topping.",
+    "steps": [
+      "Preheat oven to 375°F (190°C).",
+      "Combine peaches with sugar and a bit of flour.",
+      "Place in a baking dish and top with a mixture of flour, sugar, and butter.",
+      "Bake until topping is golden and peaches are bubbly."
+    ],
+    "ingredients": [
+      "Peach",
+      "Sugar",
+      "Flour",
+      "Butter"
+    ]
+  },
+  {
+    "name": "Turkey Chili",
+    "description": "A hearty and flavorful chili made with ground turkey and a mix of spices.",
+    "steps": [
+      "Cook ground turkey with onions and garlic.",
+      "Add tomatoes, beans, and chili spices.",
+      "Simmer until flavors meld together.",
+      "Serve with a dollop of sour cream and chopped cilantro."
+    ],
+    "ingredients": [
+      "Ground turkey",
+      "Onion",
+      "Garlic",
+      "Tomatoes",
+      "Beans",
+      "Chili spices",
+      "Sour cream",
+      "Cilantro"
+    ]
+  },
+  {
+    "name": "Bulgur Salad with Vegetables",
+    "description": "A light and nutritious salad made with bulgur and a variety of fresh vegetables.",
+    "steps": [
+      "Cook bulgur according to package instructions.",
+      "Mix with chopped vegetables like bell pepper, cucumber, and tomato.",
+      "Dress with olive oil, lemon juice, and fresh herbs.",
+      "Serve chilled or at room temperature."
+    ],
+    "ingredients": [
+      "Bulgur",
+      "Bell pepper",
+      "Cucumber",
+      "Tomato",
+      "Olive oil",
+      "Lemon juice",
+      "Fresh herbs"
+    ]
+  },
+  {
+    "name": "Coconut Curry Shrimp",
+    "description": "Shrimp cooked in a rich and aromatic coconut curry sauce.",
+    "steps": [
+      "Sauté onions, garlic, and ginger in a pan.",
+      "Add curry powder and cook until fragrant.",
+      "Stir in coconut milk and bring to a simmer.",
+      "Add shrimp and cook until pink and cooked through.",
+      "Serve with rice or naan."
+    ],
+    "ingredients": [
+      "Shrimp",
+      "Onion",
+      "Garlic",
+      "Ginger",
+      "Curry powder",
+      "Coconut milk",
+      "Rice",
+      "Naan"
+    ]
+  },
+  {
+    "name": "Cheddar and Spinach Stuffed Potatoes",
+    "description": "Baked potatoes stuffed with a cheesy spinach mixture.",
+    "steps": [
+      "Bake potatoes until tender.",
+      "Scoop out the flesh and mix with cheddar cheese, spinach, and seasonings.",
+      "Stuff the mixture back into the potato skins.",
+      "Bake until the tops are golden and the cheese is melted."
+    ],
+    "ingredients": [
+      "Potato",
+      "Cheddar cheese",
+      "Spinach",
+      "Seasonings"
+    ]
+  },
+  {
+    "name": "Apple Cinnamon Oatmeal",
+    "description": "Warm and comforting oatmeal with sweet apples and a hint of cinnamon.",
+    "steps": [
+      "Cook oats according to package instructions.",
+      "Stir in chopped apples, cinnamon, and a bit of sugar.",
+      "Cook until apples are tender.",
+      "Serve hot with a drizzle of honey or a splash of milk."
+    ],
+    "ingredients": [
+      "Oats",
+      "Apple",
+      "Cinnamon",
+      "Sugar",
+      "Honey",
+      "Milk"
+    ]
+  },
+  {
+    "name": "Roasted Vegetable Medley",
+    "description": "A colorful assortment of roasted vegetables with a touch of olive oil and herbs.",
+    "steps": [
+      "Preheat oven to 400°F (200°C).",
+      "Toss vegetables like carrots, zucchini, and bell peppers with olive oil and herbs.",
+      "Spread on a baking sheet and roast until tender and caramelized.",
+      "Serve as a side dish or over grains."
+    ],
+    "ingredients": [
+      "Carrot",
+      "Zucchini",
+      "Bell pepper",
+      "Olive oil",
+      "Herbs"
+    ]
+  },
+  {
+    "name": "Maple Glazed Salmon",
+    "description": "Salmon fillets with a sweet and savory maple glaze.",
+    "steps": [
+      "Mix maple syrup, soy sauce, and garlic.",
+      "Brush over salmon fillets and bake until cooked through.",
+      "Serve with a side of quinoa or steamed vegetables."
+    ],
+    "ingredients": [
+      "Salmon",
+      "Maple syrup",
+      "Soy sauce",
+      "Garlic",
+      "Quinoa",
+      "Vegetables"
+    ]
+  },
+  {
+    "name": "Pasta Primavera",
+    "description": "A light pasta dish with fresh vegetables and a simple garlic sauce.",
+    "steps": [
+      "Cook pasta according to package instructions.",
+      "Sauté garlic and a mix of vegetables like bell peppers, zucchini, and tomatoes.",
+      "Toss with cooked pasta and a splash of pasta water.",
+      "Garnish with Parmesan cheese and fresh basil."
+    ],
+    "ingredients": [
+      "Pasta",
+      "Garlic",
+      "Bell pepper",
+      "Zucchini",
+      "Tomato",
       "Parmesan cheese",
       "Basil"
     ]
   },
   {
-    "name": "Gingerbread Cookies",
+    "name": "Beef and Broccoli Stir-Fry",
+    "description": "Tender beef slices and broccoli florets stir-fried in a savory sauce.",
+    "steps": [
+      "Slice beef thinly and cook in a hot pan until browned.",
+      "Add broccoli and stir-fry until tender-crisp.",
+      "Mix in a sauce made from soy sauce, garlic, and ginger.",
+      "Serve with rice or noodles."
+    ],
     "ingredients": [
-      "Flour",
-      "Sugar",
-      "Butter",
-      "Egg",
-      "Ginger",
-      "Cinnamon"
-    ]
-  },
-  {
-    "name": "Ratatouille",
-    "ingredients": [
-      "Eggplant",
-      "Zucchini",
-      "Bell pepper",
-      "Tomato",
-      "Onion",
-      "Garlic"
-    ]
-  },
-  {
-    "name": "Butternut Squash Risotto",
-    "ingredients": [
-      "Butternut squash",
-      "Arborio rice",
-      "Onion",
+      "Beef",
+      "Broccoli",
+      "Soy sauce",
       "Garlic",
-      "Parmesan cheese",
-      "Olive oil"
+      "Ginger",
+      "Rice or noodles"
     ]
   },
   {
-    "name": "Coconut Curry Chicken",
+    "name": "Lemon Garlic Chicken",
+    "description": "Chicken breasts marinated in a zesty lemon garlic sauce and baked to perfection.",
+    "steps": [
+      "Mix lemon juice, garlic, olive oil, and herbs to create a marinade.",
+      "Marinate chicken breasts in the mixture for at least an hour.",
+      "Bake chicken until cooked through and golden.",
+      "Serve with a side of roasted vegetables or salad."
+    ],
     "ingredients": [
       "Chicken breast",
-      "Coconut milk",
-      "Curry powder",
-      "Onion",
+      "Lemon juice",
       "Garlic",
-      "Ginger"
+      "Olive oil",
+      "Herbs",
+      "Vegetables or salad"
     ]
   },
   {
-    "name": "Beetroot Hummus",
+    "name": "Vegetable Quiche",
+    "description": "A savory quiche loaded with vegetables and cheese in a flaky crust.",
+    "steps": [
+      "Preheat oven and prepare a pie crust in a dish.",
+      "Whisk together eggs, cream, and cheese.",
+      "Add sautéed vegetables like spinach, bell pepper, and onion.",
+      "Pour mixture into the crust and bake until set and golden."
+    ],
     "ingredients": [
-      "Beetroot",
-      "Chickpeas",
-      "Garlic",
-      "Tahini",
-      "Lemon",
-      "Olive oil"
-    ]
-  },
-  {
-    "name": "Cauliflower Soup",
-    "ingredients": [
-      "Cauliflower",
-      "Onion",
-      "Garlic",
+      "Pie crust",
+      "Eggs",
       "Cream",
-      "Butter",
-      "Thyme"
+      "Cheese",
+      "Spinach",
+      "Bell pepper",
+      "Onion"
     ]
   },
   {
-    "name": "Lemon Garlic Shrimp",
+    "name": "Pork and Apple Skillet",
+    "description": "Tender pork chops cooked with apples and onions in a skillet.",
+    "steps": [
+      "Season and sear pork chops in a skillet.",
+      "Remove pork and sauté onions and apples in the same pan.",
+      "Return pork to the skillet and cook until apples are tender and pork is cooked through.",
+      "Serve with a side of mashed potatoes or rice."
+    ],
+    "ingredients": [
+      "Pork",
+      "Apple",
+      "Onion",
+      "Mashed potatoes or rice"
+    ]
+  },
+  {
+    "name": "Chocolate Banana Smoothie",
+    "description": "A creamy and delicious smoothie with bananas and a hint of chocolate.",
+    "steps": [
+      "Blend bananas, cocoa powder, yogurt, and milk until smooth.",
+      "Add ice if desired for a colder smoothie.",
+      "Serve chilled."
+    ],
+    "ingredients": [
+      "Banana",
+      "Cocoa powder",
+      "Yogurt",
+      "Milk",
+      "Ice"
+    ]
+  },
+  {
+    "name": "Garlic Butter Shrimp Pasta",
+    "description": "A flavorful pasta dish with shrimp cooked in a garlic butter sauce.",
+    "steps": [
+      "Cook pasta according to package instructions.",
+      "Sauté shrimp in garlic and butter until cooked through.",
+      "Toss cooked pasta with the garlic butter shrimp and add fresh herbs.",
+      "Serve with grated Parmesan cheese."
+    ],
     "ingredients": [
       "Shrimp",
-      "Lemon",
       "Garlic",
       "Butter",
-      "Parsley",
+      "Pasta",
+      "Herbs",
+      "Parmesan cheese"
+    ]
+  },
+  {
+    "name": "Stuffed Bell Peppers",
+    "description": "Bell peppers filled with a mixture of ground beef, rice, and vegetables, then baked.",
+    "steps": [
+      "Cook ground beef with onions and garlic.",
+      "Mix with cooked rice and chopped tomatoes.",
+      "Stuff bell peppers with the mixture and bake until peppers are tender.",
+      "Top with cheese if desired."
+    ],
+    "ingredients": [
+      "Bell pepper",
+      "Ground beef",
+      "Onion",
+      "Garlic",
+      "Rice",
+      "Tomatoes",
+      "Cheese (optional)"
+    ]
+  },
+  {
+    "name": "Cucumber Tomato Salad",
+    "description": "A refreshing salad with cucumbers, tomatoes, and a light vinaigrette.",
+    "steps": [
+      "Chop cucumbers and tomatoes and mix in a bowl.",
+      "Dress with olive oil, vinegar, and fresh herbs.",
+      "Serve chilled or at room temperature."
+    ],
+    "ingredients": [
+      "Cucumber",
+      "Tomato",
+      "Olive oil",
+      "Vinegar",
+      "Fresh herbs"
+    ]
+  },
+  {
+    "name": "Maple Glazed Carrots",
+    "description": "Sweet and savory carrots glazed with maple syrup and butter.",
+    "steps": [
+      "Sauté carrots in butter until starting to soften.",
+      "Add maple syrup and cook until carrots are tender and glazed.",
+      "Season with salt and pepper and serve."
+    ],
+    "ingredients": [
+      "Carrot",
+      "Butter",
+      "Maple syrup",
+      "Salt",
+      "Pepper"
+    ]
+  },
+  {
+    "name": "Berry Yogurt Parfait",
+    "description": "A layered dessert with yogurt, fresh berries, and granola.",
+    "steps": [
+      "Layer yogurt, fresh berries, and granola in a glass or bowl.",
+      "Repeat layers until all ingredients are used.",
+      "Serve immediately or refrigerate until ready to eat."
+    ],
+    "ingredients": [
+      "Yogurt",
+      "Fresh berries",
+      "Granola"
+    ]
+  },
+  {
+    "name": "Spaghetti Carbonara",
+    "description": "A classic Italian pasta dish with a creamy egg and cheese sauce, pancetta, and black pepper.",
+    "steps": [
+      "Cook spaghetti according to package instructions.",
+      "In a pan, cook pancetta until crispy.",
+      "Mix eggs and Parmesan cheese in a bowl.",
+      "Combine cooked spaghetti with pancetta, then remove from heat and quickly stir in egg mixture.",
+      "Season with black pepper and serve."
+    ],
+    "ingredients": [
+      "Spaghetti",
+      "Pancetta",
+      "Eggs",
+      "Parmesan cheese",
       "Black pepper"
     ]
   },
   {
-    "name": "Strawberry Spinach Salad",
+    "name": "Mango Salsa",
+    "description": "A fresh and vibrant salsa made with mango, red onion, cilantro, and lime juice.",
+    "steps": [
+      "Dice mango and red onion.",
+      "Mix with chopped cilantro and lime juice.",
+      "Season with salt and pepper to taste.",
+      "Serve with tortilla chips or as a topping for grilled fish."
+    ],
     "ingredients": [
-      "Strawberry",
-      "Spinach",
-      "Goat cheese",
-      "Walnut",
-      "Balsamic vinegar",
-      "Olive oil"
+      "Mango",
+      "Red onion",
+      "Cilantro",
+      "Lime juice",
+      "Salt",
+      "Pepper"
     ]
   },
   {
-    "name": "Mushroom Risotto",
-    "ingredients": [
-      "Mushroom",
-      "Arborio rice",
-      "Onion",
-      "Garlic",
-      "Parmesan cheese",
-      "Butter"
-    ]
-  },
-  {
-    "name": "Apricot Glazed Chicken",
+    "name": "Chicken and Vegetable Stir-Fry",
+    "description": "A quick and healthy stir-fry with chicken and a mix of colorful vegetables.",
+    "steps": [
+      "Slice chicken breasts and cook in a hot pan with a little oil.",
+      "Add a mix of vegetables such as bell peppers, broccoli, and carrots.",
+      "Stir in soy sauce and garlic, and cook until vegetables are tender.",
+      "Serve with rice or noodles."
+    ],
     "ingredients": [
       "Chicken breast",
-      "Apricot jam",
+      "Bell pepper",
+      "Broccoli",
+      "Carrot",
       "Soy sauce",
       "Garlic",
-      "Ginger",
-      "Olive oil"
+      "Rice or noodles"
     ]
   },
   {
-    "name": "Cabbage Rolls",
+    "name": "Stuffed Zucchini Boats",
+    "description": "Zucchini halves stuffed with a savory mixture of ground beef, tomatoes, and cheese.",
+    "steps": [
+      "Cut zucchini in half and scoop out the centers.",
+      "Cook ground beef with onions and garlic, then mix with diced tomatoes.",
+      "Fill zucchini halves with the beef mixture and top with cheese.",
+      "Bake until zucchini is tender and cheese is melted."
+    ],
     "ingredients": [
-      "Cabbage",
+      "Zucchini",
       "Ground beef",
-      "Rice",
-      "Tomato sauce",
-      "Onion",
-      "Garlic"
-    ]
-  },
-  {
-    "name": "Corn Fritters",
-    "ingredients": [
-      "Corn",
-      "Flour",
-      "Egg",
-      "Milk",
-      "Baking powder",
-      "Scallions"
-    ]
-  },
-  {
-    "name": "Leek and Potato Soup",
-    "ingredients": [
-      "Leek",
-      "Potato",
       "Onion",
       "Garlic",
+      "Diced tomatoes",
+      "Cheese"
+    ]
+  },
+  {
+    "name": "Peach and Raspberry Smoothie",
+    "description": "A refreshing smoothie made with peaches, raspberries, and a splash of orange juice.",
+    "steps": [
+      "Blend peaches, raspberries, and orange juice until smooth.",
+      "Add a splash of honey for extra sweetness if desired.",
+      "Serve chilled."
+    ],
+    "ingredients": [
+      "Peach",
+      "Raspberry",
+      "Orange juice",
+      "Honey (optional)"
+    ]
+  },
+  {
+    "name": "Lentil Soup",
+    "description": "A hearty and nutritious soup made with lentils, carrots, celery, and spices.",
+    "steps": [
+      "Sauté onions, carrots, and celery in a pot.",
+      "Add lentils, vegetable broth, and spices.",
+      "Simmer until lentils are tender.",
+      "Serve hot with crusty bread."
+    ],
+    "ingredients": [
+      "Lentils",
+      "Carrot",
+      "Celery",
+      "Onion",
+      "Vegetable broth",
+      "Spices"
+    ]
+  },
+  {
+    "name": "Chicken Caesar Salad",
+    "description": "A classic Caesar salad topped with grilled chicken and Parmesan cheese.",
+    "steps": [
+      "Grill or cook chicken breasts and slice thinly.",
+      "Toss romaine lettuce with Caesar dressing, croutons, and Parmesan cheese.",
+      "Top with sliced chicken and serve."
+    ],
+    "ingredients": [
+      "Chicken breast",
+      "Romaine lettuce",
+      "Caesar dressing",
+      "Croutons",
+      "Parmesan cheese"
+    ]
+  },
+  {
+    "name": "Garlic Parmesan Roasted Potatoes",
+    "description": "Crispy roasted potatoes coated in garlic and Parmesan cheese.",
+    "steps": [
+      "Cut potatoes into wedges and toss with olive oil, garlic, and Parmesan cheese.",
+      "Spread on a baking sheet and roast until golden and crispy.",
+      "Season with salt and pepper to taste."
+    ],
+    "ingredients": [
+      "Potato",
+      "Olive oil",
+      "Garlic",
+      "Parmesan cheese",
+      "Salt",
+      "Pepper"
+    ]
+  },
+  {
+    "name": "Spinach and Feta Stuffed Chicken",
+    "description": "Chicken breasts stuffed with a mixture of spinach and feta cheese, baked to perfection.",
+    "steps": [
+      "Mix spinach and feta cheese together.",
+      "Stuff chicken breasts with the mixture and secure with toothpicks.",
+      "Bake until chicken is cooked through and juices run clear.",
+      "Serve with a side of rice or vegetables."
+    ],
+    "ingredients": [
+      "Chicken breast",
+      "Spinach",
+      "Feta cheese",
+      "Rice or vegetables"
+    ]
+  },
+  {
+    "name": "Apple Cinnamon Oatmeal",
+    "description": "A warm and comforting oatmeal flavored with apples and cinnamon.",
+    "steps": [
+      "Cook oats in milk or water according to package instructions.",
+      "Stir in diced apples and cinnamon.",
+      "Sweeten with honey or maple syrup if desired."
+    ],
+    "ingredients": [
+      "Oats",
+      "Apple",
+      "Cinnamon",
+      "Milk or water",
+      "Honey or maple syrup (optional)"
+    ]
+  },
+  {
+    "name": "Blueberry Muffins",
+    "description": "Delicious muffins bursting with fresh blueberries and a hint of lemon.",
+    "steps": [
+      "Mix flour, sugar, baking powder, and salt in a bowl.",
+      "In another bowl, combine eggs, milk, and melted butter.",
+      "Fold in blueberries and lemon zest.",
+      "Spoon batter into muffin tins and bake until golden brown."
+    ],
+    "ingredients": [
+      "Flour",
+      "Sugar",
+      "Baking powder",
+      "Salt",
+      "Eggs",
+      "Milk",
+      "Butter",
+      "Blueberries",
+      "Lemon zest"
+    ]
+  },
+  {
+    "name": "Vegetable Stir-Fry",
+    "description": "A quick and colorful stir-fry with a variety of vegetables and a savory sauce.",
+    "steps": [
+      "Slice vegetables such as bell peppers, broccoli, and carrots.",
+      "Stir-fry vegetables in a hot pan with oil until tender.",
+      "Add soy sauce, garlic, and a splash of vinegar.",
+      "Serve over rice or noodles."
+    ],
+    "ingredients": [
+      "Bell pepper",
+      "Broccoli",
+      "Carrot",
+      "Soy sauce",
+      "Garlic",
+      "Vinegar",
+      "Rice or noodles"
+    ]
+  },
+  {
+    "name": "Pork and Apple Skewers",
+    "description": "Grilled skewers with tender pork and sweet apples, perfect for a summer barbecue.",
+    "steps": [
+      "Cut pork and apples into cubes.",
+      "Thread onto skewers, alternating between pork and apple.",
+      "Season with salt, pepper, and a sprinkle of cinnamon.",
+      "Grill until pork is cooked through and apples are slightly caramelized."
+    ],
+    "ingredients": [
+      "Pork",
+      "Apple",
+      "Salt",
+      "Pepper",
+      "Cinnamon"
+    ]
+  },
+  {
+    "name": "Creamy Tomato Soup",
+    "description": "A rich and creamy tomato soup, perfect for a cozy meal.",
+    "steps": [
+      "Sauté onions and garlic in a pot until translucent.",
+      "Add canned tomatoes and vegetable broth, then simmer.",
+      "Blend the soup until smooth, then stir in cream.",
+      "Season with salt, pepper, and basil."
+    ],
+    "ingredients": [
+      "Tomato",
+      "Onion",
+      "Garlic",
+      "Vegetable broth",
       "Cream",
+      "Salt",
+      "Pepper",
+      "Basil"
+    ]
+  },
+  {
+    "name": "Peach Cobbler",
+    "description": "A classic dessert with sweet peaches and a buttery biscuit topping.",
+    "steps": [
+      "Slice peaches and toss with sugar and cinnamon.",
+      "Place peaches in a baking dish and top with biscuit dough.",
+      "Bake until the topping is golden brown and the peaches are bubbly."
+    ],
+    "ingredients": [
+      "Peach",
+      "Sugar",
+      "Cinnamon",
+      "Biscuit dough"
+    ]
+  },
+  {
+    "name": "Tuna Salad",
+    "description": "A simple and fresh tuna salad with crisp vegetables and a light dressing.",
+    "steps": [
+      "Mix canned tuna with diced celery, onion, and bell pepper.",
+      "Add a dressing made from mayonnaise and lemon juice.",
+      "Season with salt and pepper.",
+      "Serve on a bed of lettuce or in a sandwich."
+    ],
+    "ingredients": [
+      "Tuna",
+      "Celery",
+      "Onion",
+      "Bell pepper",
+      "Mayonnaise",
+      "Lemon juice",
+      "Salt",
+      "Pepper"
+    ]
+  },
+  {
+    "name": "Eggplant Parmesan",
+    "description": "Layers of breaded eggplant, marinara sauce, and melted cheese.",
+    "steps": [
+      "Slice eggplant and bread with flour, egg, and breadcrumbs.",
+      "Fry or bake the eggplant slices until crispy.",
+      "Layer eggplant slices with marinara sauce and mozzarella cheese.",
+      "Bake until cheese is melted and bubbly."
+    ],
+    "ingredients": [
+      "Eggplant",
+      "Flour",
+      "Egg",
+      "Breadcrumbs",
+      "Marinara sauce",
+      "Mozzarella cheese"
+    ]
+  },
+  {
+    "name": "Honey Garlic Shrimp",
+    "description": "Succulent shrimp cooked in a sweet and savory honey garlic sauce.",
+    "steps": [
+      "Cook shrimp in a hot pan with a bit of oil.",
+      "Add minced garlic and cook until fragrant.",
+      "Stir in honey and soy sauce, cooking until the shrimp is coated and cooked through.",
+      "Serve over rice or noodles."
+    ],
+    "ingredients": [
+      "Shrimp",
+      "Garlic",
+      "Honey",
+      "Soy sauce",
+      "Rice or noodles"
+    ]
+  },
+  {
+    "name": "Apple Cinnamon Pancakes",
+    "description": "Fluffy pancakes with chunks of apple and a hint of cinnamon.",
+    "steps": [
+      "Mix pancake batter with diced apples and cinnamon.",
+      "Cook on a griddle until bubbles form and the edges are set.",
+      "Flip and cook until golden brown.",
+      "Serve with maple syrup or honey."
+    ],
+    "ingredients": [
+      "Pancake batter",
+      "Apple",
+      "Cinnamon",
+      "Maple syrup or honey"
+    ]
+  },
+  {
+    "name": "Greek Yogurt Parfait",
+    "description": "A layered parfait with Greek yogurt, fresh fruit, and granola.",
+    "steps": [
+      "Layer Greek yogurt with fresh berries and granola in a glass.",
+      "Repeat layers and top with a drizzle of honey.",
+      "Serve immediately or refrigerate until ready to eat."
+    ],
+    "ingredients": [
+      "Greek yogurt",
+      "Fresh berries",
+      "Granola",
+      "Honey"
+    ]
+  },
+  {
+    "name": "Quinoa Salad with Lemon Dressing",
+    "description": "A light and refreshing salad with quinoa, vegetables, and a tangy lemon dressing.",
+    "steps": [
+      "Cook quinoa according to package instructions and let cool.",
+      "Mix with diced vegetables like cucumber, tomato, and bell pepper.",
+      "Toss with a lemon juice, olive oil, and fresh herbs dressing.",
+      "Season with salt and pepper."
+    ],
+    "ingredients": [
+      "Quinoa",
+      "Cucumber",
+      "Tomato",
+      "Bell pepper",
+      "Lemon juice",
+      "Olive oil",
+      "Fresh herbs",
+      "Salt",
+      "Pepper"
+    ]
+  },
+  {
+    "name": "Vegetable Stir-Fry",
+    "description": "A quick and colorful stir-fry with a variety of vegetables and a savory sauce.",
+    "steps": [
+      "Slice vegetables such as bell peppers, broccoli, and carrots.",
+      "Stir-fry vegetables in a hot pan with oil until tender.",
+      "Add soy sauce, garlic, and a splash of vinegar.",
+      "Serve over rice or noodles."
+    ],
+    "ingredients": [
+      "Bell pepper",
+      "Broccoli",
+      "Carrot",
+      "Soy sauce",
+      "Garlic",
+      "Vinegar",
+      "Rice or noodles"
+    ]
+  },
+  {
+    "name": "Pork and Apple Skewers",
+    "description": "Grilled skewers with tender pork and sweet apples, perfect for a summer barbecue.",
+    "steps": [
+      "Cut pork and apples into cubes.",
+      "Thread onto skewers, alternating between pork and apple.",
+      "Season with salt, pepper, and a sprinkle of cinnamon.",
+      "Grill until pork is cooked through and apples are slightly caramelized."
+    ],
+    "ingredients": [
+      "Pork",
+      "Apple",
+      "Salt",
+      "Pepper",
+      "Cinnamon"
+    ]
+  },
+  {
+    "name": "Creamy Tomato Soup",
+    "description": "A rich and creamy tomato soup, perfect for a cozy meal.",
+    "steps": [
+      "Sauté onions and garlic in a pot until translucent.",
+      "Add canned tomatoes and vegetable broth, then simmer.",
+      "Blend the soup until smooth, then stir in cream.",
+      "Season with salt, pepper, and basil."
+    ],
+    "ingredients": [
+      "Tomato",
+      "Onion",
+      "Garlic",
+      "Vegetable broth",
+      "Cream",
+      "Salt",
+      "Pepper",
+      "Basil"
+    ]
+  },
+  {
+    "name": "Peach Cobbler",
+    "description": "A classic dessert with sweet peaches and a buttery biscuit topping.",
+    "steps": [
+      "Slice peaches and toss with sugar and cinnamon.",
+      "Place peaches in a baking dish and top with biscuit dough.",
+      "Bake until the topping is golden brown and the peaches are bubbly."
+    ],
+    "ingredients": [
+      "Peach",
+      "Sugar",
+      "Cinnamon",
+      "Biscuit dough"
+    ]
+  },
+  {
+    "name": "Tuna Salad",
+    "description": "A simple and fresh tuna salad with crisp vegetables and a light dressing.",
+    "steps": [
+      "Mix canned tuna with diced celery, onion, and bell pepper.",
+      "Add a dressing made from mayonnaise and lemon juice.",
+      "Season with salt and pepper.",
+      "Serve on a bed of lettuce or in a sandwich."
+    ],
+    "ingredients": [
+      "Tuna",
+      "Celery",
+      "Onion",
+      "Bell pepper",
+      "Mayonnaise",
+      "Lemon juice",
+      "Salt",
+      "Pepper"
+    ]
+  },
+  {
+    "name": "Eggplant Parmesan",
+    "description": "Layers of breaded eggplant, marinara sauce, and melted cheese.",
+    "steps": [
+      "Slice eggplant and bread with flour, egg, and breadcrumbs.",
+      "Fry or bake the eggplant slices until crispy.",
+      "Layer eggplant slices with marinara sauce and mozzarella cheese.",
+      "Bake until cheese is melted and bubbly."
+    ],
+    "ingredients": [
+      "Eggplant",
+      "Flour",
+      "Egg",
+      "Breadcrumbs",
+      "Marinara sauce",
+      "Mozzarella cheese"
+    ]
+  },
+  {
+    "name": "Honey Garlic Shrimp",
+    "description": "Succulent shrimp cooked in a sweet and savory honey garlic sauce.",
+    "steps": [
+      "Cook shrimp in a hot pan with a bit of oil.",
+      "Add minced garlic and cook until fragrant.",
+      "Stir in honey and soy sauce, cooking until the shrimp is coated and cooked through.",
+      "Serve over rice or noodles."
+    ],
+    "ingredients": [
+      "Shrimp",
+      "Garlic",
+      "Honey",
+      "Soy sauce",
+      "Rice or noodles"
+    ]
+  },
+  {
+    "name": "Apple Cinnamon Pancakes",
+    "description": "Fluffy pancakes with chunks of apple and a hint of cinnamon.",
+    "steps": [
+      "Mix pancake batter with diced apples and cinnamon.",
+      "Cook on a griddle until bubbles form and the edges are set.",
+      "Flip and cook until golden brown.",
+      "Serve with maple syrup or honey."
+    ],
+    "ingredients": [
+      "Pancake batter",
+      "Apple",
+      "Cinnamon",
+      "Maple syrup or honey"
+    ]
+  },
+  {
+    "name": "Greek Yogurt Parfait",
+    "description": "A layered parfait with Greek yogurt, fresh fruit, and granola.",
+    "steps": [
+      "Layer Greek yogurt with fresh berries and granola in a glass.",
+      "Repeat layers and top with a drizzle of honey.",
+      "Serve immediately or refrigerate until ready to eat."
+    ],
+    "ingredients": [
+      "Greek yogurt",
+      "Fresh berries",
+      "Granola",
+      "Honey"
+    ]
+  },
+  {
+    "name": "Quinoa Salad with Lemon Dressing",
+    "description": "A light and refreshing salad with quinoa, vegetables, and a tangy lemon dressing.",
+    "steps": [
+      "Cook quinoa according to package instructions and let cool.",
+      "Mix with diced vegetables like cucumber, tomato, and bell pepper.",
+      "Toss with a lemon juice, olive oil, and fresh herbs dressing.",
+      "Season with salt and pepper."
+    ],
+    "ingredients": [
+      "Quinoa",
+      "Cucumber",
+      "Tomato",
+      "Bell pepper",
+      "Lemon juice",
+      "Olive oil",
+      "Fresh herbs",
+      "Salt",
+      "Pepper"
+    ]
+  },
+  {
+    "name": "Spaghetti Bolognese",
+    "description": "A classic Italian pasta dish with a rich, meaty tomato sauce.",
+    "steps": [
+      "Cook ground beef in a pan until browned.",
+      "Add chopped onions, garlic, and bell peppers, and cook until softened.",
+      "Stir in canned tomatoes, tomato paste, and herbs like oregano and basil.",
+      "Simmer until the sauce thickens and flavors meld.",
+      "Serve over cooked spaghetti and top with parmesan cheese."
+    ],
+    "ingredients": [
+      "Ground beef",
+      "Onion",
+      "Garlic",
+      "Bell pepper",
+      "Canned tomatoes",
+      "Tomato paste",
+      "Oregano",
+      "Basil",
+      "Spaghetti",
+      "Parmesan cheese"
+    ]
+  },
+  {
+    "name": "Chicken and Vegetable Soup",
+    "description": "A comforting soup with chicken, vegetables, and a flavorful broth.",
+    "steps": [
+      "Cook diced chicken breast in a pot until no longer pink.",
+      "Add chopped carrots, celery, and potatoes, and cook for a few minutes.",
+      "Pour in chicken broth and add herbs like thyme and parsley.",
+      "Simmer until vegetables are tender and chicken is cooked through.",
+      "Season with salt and pepper before serving."
+    ],
+    "ingredients": [
+      "Chicken breast",
+      "Carrot",
+      "Celery",
+      "Potato",
+      "Chicken broth",
+      "Thyme",
+      "Parsley",
+      "Salt",
+      "Pepper"
+    ]
+  },
+  {
+    "name": "Mango Salsa",
+    "description": "A fresh and vibrant salsa made with ripe mango and other colorful ingredients.",
+    "steps": [
+      "Dice mango, red onion, and bell pepper.",
+      "Mix with chopped cilantro and lime juice.",
+      "Season with salt and pepper.",
+      "Serve with tortilla chips or as a topping for grilled meats."
+    ],
+    "ingredients": [
+      "Mango",
+      "Red onion",
+      "Bell pepper",
+      "Cilantro",
+      "Lime juice",
+      "Salt",
+      "Pepper"
+    ]
+  },
+  {
+    "name": "Bacon-Wrapped Chicken Bites",
+    "description": "Tender chicken bites wrapped in crispy bacon and baked to perfection.",
+    "steps": [
+      "Cut chicken breast into bite-sized pieces.",
+      "Wrap each piece with a strip of bacon and secure with a toothpick.",
+      "Place on a baking sheet and bake until bacon is crispy and chicken is cooked through.",
+      "Serve as an appetizer or main dish."
+    ],
+    "ingredients": [
+      "Chicken breast",
+      "Bacon",
+      "Toothpicks"
+    ]
+  },
+  {
+    "name": "Pumpkin Spice Muffins",
+    "description": "Moist and flavorful muffins with the warm spices of fall.",
+    "steps": [
+      "Mix flour, sugar, baking powder, and pumpkin pie spice in a bowl.",
+      "In another bowl, combine pumpkin puree, eggs, and melted butter.",
+      "Fold wet ingredients into dry ingredients until just combined.",
+      "Spoon batter into muffin tins and bake until a toothpick comes out clean."
+    ],
+    "ingredients": [
+      "Flour",
+      "Sugar",
+      "Baking powder",
+      "Pumpkin pie spice",
+      "Pumpkin puree",
+      "Eggs",
       "Butter"
     ]
   },
   {
-    "name": "Chickpea Salad",
+    "name": "Lemon Garlic Scallops",
+    "description": "Delicate scallops seared with lemon and garlic for a flavorful seafood dish.",
+    "steps": [
+      "Season scallops with salt and pepper.",
+      "Sear in a hot pan with olive oil until golden brown on both sides.",
+      "Add minced garlic and cook until fragrant.",
+      "Finish with a squeeze of lemon juice and serve immediately."
+    ],
     "ingredients": [
-      "Chickpeas",
-      "Cucumber",
-      "Tomato",
-      "Red onion",
+      "Scallops",
+      "Salt",
+      "Pepper",
       "Olive oil",
-      "Lemon"
-    ]
-  },
-  {
-    "name": "Roasted Red Pepper Hummus",
-    "ingredients": [
-      "Red bell pepper",
-      "Chickpeas",
       "Garlic",
-      "Tahini",
-      "Lemon",
-      "Olive oil"
+      "Lemon juice"
     ]
   },
   {
-    "name": "Honey Mustard Glazed Salmon",
+    "name": "Berry Smoothie",
+    "description": "A refreshing smoothie packed with mixed berries and a touch of honey.",
+    "steps": [
+      "Combine mixed berries, yogurt, and a splash of milk in a blender.",
+      "Add a drizzle of honey and blend until smooth.",
+      "Serve chilled."
+    ],
     "ingredients": [
-      "Salmon",
+      "Mixed berries",
+      "Yogurt",
+      "Milk",
+      "Honey"
+    ]
+  },
+  {
+    "name": "Vegetable Frittata",
+    "description": "A baked egg dish with a mix of vegetables and cheese.",
+    "steps": [
+      "Sauté vegetables like bell peppers, spinach, and onions in a skillet.",
+      "Whisk eggs and pour over the vegetables.",
+      "Sprinkle with cheese and bake until eggs are set and cheese is melted."
+    ],
+    "ingredients": [
+      "Bell pepper",
+      "Spinach",
+      "Onion",
+      "Eggs",
+      "Cheese"
+    ]
+  },
+  {
+    "name": "Orange Glazed Chicken",
+    "description": "Chicken with a sweet and tangy orange glaze, perfect for a weeknight meal.",
+    "steps": [
+      "Cook chicken breasts in a skillet until browned.",
+      "Mix orange juice, honey, and soy sauce for the glaze.",
+      "Pour over the chicken and simmer until the glaze thickens and the chicken is cooked through.",
+      "Serve with rice or vegetables."
+    ],
+    "ingredients": [
+      "Chicken breast",
+      "Orange juice",
       "Honey",
-      "Dijon mustard",
-      "Garlic",
-      "Lemon",
-      "Olive oil"
+      "Soy sauce",
+      "Rice or vegetables"
     ]
   },
   {
-    "name": "Apple and Walnut Salad",
+    "name": "Almond-Crusted Tilapia",
+    "description": "Tender tilapia fillets coated in a crunchy almond crust and baked to perfection.",
+    "steps": [
+      "Coat tilapia fillets in flour, then dip in beaten egg, and finally coat with crushed almonds.",
+      "Place on a baking sheet and bake until golden brown and cooked through.",
+      "Serve with a side of vegetables or salad."
+    ],
     "ingredients": [
-      "Apple",
-      "Walnut",
-      "Lettuce",
-      "Blue cheese",
-      "Olive oil",
-      "Balsamic vinegar"
-    ]
-  },
-  {
-    "name": "Grapefruit Avocado Salad",
-    "ingredients": [
-      "Grapefruit",
-      "Avocado",
-      "Red onion",
-      "Olive oil",
-      "Lemon",
-      "Lettuce"
+      "Tilapia fillets",
+      "Flour",
+      "Egg",
+      "Crushed almonds"
     ]
   }
 ]

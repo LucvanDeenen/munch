@@ -19,7 +19,7 @@
 
       <v-container class="overflow-y-auto px-2 py-3" id="content">
         <v-card v-for="(meal, key) in filteredRecipes" :key="key" class="mb-5 pa-3 border"
-        :class="recipe === meal ? 'bg-secondary' : ''" @click="selectRecipe(meal)">
+          :class="recipe === meal ? 'bg-secondary' : ''" @click="selectRecipe(meal)">
           <h3>
             {{ meal.name }}
           </h3>
@@ -31,13 +31,13 @@
       </v-container>
 
     </v-card>
-    <v-btn block :disabled="recipe == undefined" @click="scrollTo('section-recipe')">let's cook!</v-btn>
+    <v-btn block :disabled="recipe == undefined" @click="setupMeal">let's cook!</v-btn>
   </v-container>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import { mapGetters } from 'vuex';
+import { mapGetters, mapActions } from 'vuex';
 import { scrollTo } from '@/utils/navigation';
 
 import SectionHeader from '@/components/Header.vue';
@@ -72,7 +72,7 @@ export default defineComponent({
       const filterLower = this.filter.toLowerCase();
       return this.recipes.filter(recipe =>
         recipe.name.toLowerCase().includes(filterLower)
-      );
+      ).sort();
     },
   },
 
@@ -81,8 +81,13 @@ export default defineComponent({
   },
 
   methods: {
+    ...mapActions(['updateSelectedMeal']),
     ...mapGetters(['getSelectedIngredients']),
     scrollTo,
+    setupMeal() {
+      scrollTo('section-recipe');
+      this.updateSelectedMeal(this.recipe);
+    },
     isIngredientSelected(ingredient: string): boolean {
       return this.ingredients.some((item: any) => item.name === ingredient.toLowerCase());
     },

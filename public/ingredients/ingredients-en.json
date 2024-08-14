@@ -374,5 +374,9 @@
     {
         "type": "herb",
         "name": "oregano"
+    },
+    {
+        "type": "vegetable",
+        "name": "pumpkin"
     }
 ]
