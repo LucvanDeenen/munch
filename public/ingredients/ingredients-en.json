@@ -85,11 +85,15 @@
     },
     {
         "type": "meat",
-        "name": "beef steak"
+        "name": "beef"
     },
     {
         "type": "meat",
-        "name": "pork chop"
+        "name": "steak"
+    },
+    {
+        "type": "meat",
+        "name": "pork"
     },
     {
         "type": "meat",
@@ -193,7 +197,7 @@
     },
     {
         "type": "grain",
-        "name": "pasta"
+        "name": "spaghetti"
     },
     {
         "type": "grain",

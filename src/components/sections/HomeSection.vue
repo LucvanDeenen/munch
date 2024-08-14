@@ -16,8 +16,8 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import { authenticate } from '../utils/api';
-import { scrollTo } from '../utils/navigation';
+import { authenticate } from '@/utils/api';
+import { scrollTo } from '@/utils/navigation';
 
 export default defineComponent({
   name: 'HomeSection',
