@@ -21,6 +21,19 @@ export default createVuetify({
   theme: {
     defaultTheme: 'dark',
     themes: {
+      light: {
+        colors: {
+          background: '#fffff',
+          accent: '#A49694',
+          primary: '#5DD39E',
+          hover: '#3A8965',
+          secondary: '#348AA7',
+          secondaryHover: '#2D738A',
+          error: '#CF6679',
+          success: '#3A8965',
+          warning: '#BCE784',
+        }
+      },
       dark: {
         colors: {
           background: '#1A1423',
