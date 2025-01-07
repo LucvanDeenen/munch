@@ -67,7 +67,7 @@ import { defineComponent } from 'vue';
 import { mapActions } from 'vuex';
 import { scrollTo } from '@/utils/navigation';
 
-import SectionHeader from '@/components/Header.vue';
+import SectionHeader from '@/components/layout/Header.vue';
 
 export default defineComponent({
   name: 'IngredientSection',

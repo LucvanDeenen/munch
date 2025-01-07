@@ -15,7 +15,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 
-import NavigationButton from '@/components/NavigationButton.vue';
+import NavigationButton from '@/components/layout/NavigationButton.vue';
 
 export default defineComponent({
     name: 'SectionHeader',

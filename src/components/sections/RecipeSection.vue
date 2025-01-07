@@ -61,7 +61,7 @@
 import { defineComponent } from 'vue';
 import { mapGetters } from 'vuex';
 
-import SectionHeader from '@/components/Header.vue';
+import SectionHeader from '@/components/layout/Header.vue';
 
 export default defineComponent({
   name: 'MenuSection',
@@ -78,7 +78,7 @@ export default defineComponent({
 
   computed: {
     meal() {
-      return this.getSelectedMeal();
+      return this.getSelectedMeal() ? this.getSelectedMeal : [];
     },
     mealStep() {
       return this.meal.steps[this.stepIndex]

@@ -40,7 +40,7 @@ import { defineComponent } from 'vue';
 import { mapGetters, mapActions } from 'vuex';
 import { scrollTo } from '@/utils/navigation';
 
-import SectionHeader from '@/components/Header.vue';
+import SectionHeader from '@/components/layout/Header.vue';
 
 export default defineComponent({
   name: 'MealSection',
@@ -58,7 +58,7 @@ export default defineComponent({
 
   computed: {
     ingredients() {
-      return this.getSelectedIngredients();
+      return this.getSelectedIngredients() ? this.getSelectedIngredients() : [];
     },
     recipes() {
       const uniqueIngredientNames = Array.from(new Set(this.ingredients.map((ingredient: any) => ingredient.name.toLowerCase())));
