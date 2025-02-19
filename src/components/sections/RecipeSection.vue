@@ -86,7 +86,7 @@ export default defineComponent({
   },
 
   methods: {
-    ...mapGetters(['getSelectedMeal']),
+    ...mapGetters('meals', ['getSelectedMeal']),
     prevStep() {
       if (this.stepIndex === 0) {
         return;

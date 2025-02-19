@@ -63,14 +63,14 @@ export default defineComponent({
     recipes() {
       const uniqueIngredientNames = Array.from(new Set(this.ingredients.map((ingredient: any) => ingredient.name.toLowerCase())));
 
-      return this.meals.filter(recipe => {
+      return this.meals.filter((recipe: any) => {
         const recipeIngredients = recipe.ingredients.map((ingredient: any) => ingredient.toLowerCase());
         return recipeIngredients.some((ingredient: any) => uniqueIngredientNames.includes(ingredient));
       });
     },
     filteredRecipes() {
       const filterLower = this.filter.toLowerCase();
-      return this.recipes.filter(recipe =>
+      return this.recipes.filter((recipe: any) =>
         recipe.name.toLowerCase().includes(filterLower)
       ).sort();
     },
@@ -81,8 +81,8 @@ export default defineComponent({
   },
 
   methods: {
-    ...mapActions(['updateSelectedMeal']),
-    ...mapGetters(['getSelectedIngredients']),
+    ...mapActions('meals', ['updateSelectedMeal']),
+    ...mapGetters('meals', ['getSelectedIngredients']),
     scrollTo,
     setupMeal() {
       scrollTo('section-recipe');
@@ -102,6 +102,7 @@ export default defineComponent({
       try {
         const response = await fetch('/recipes/recipes-en.json');
         const data = await response.json();
+        console.log(this.response);
         this.meals = data;
       } catch (error) {
         console.error('Failed to load ingredients:', error);
