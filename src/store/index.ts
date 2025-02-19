@@ -6,6 +6,7 @@ import meals from '@/store/modules/meals'
 
 export default createStore<RootState>({
   modules: {
-    theme
+    theme,
+    meals
   }
 })

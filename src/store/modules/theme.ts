@@ -1,7 +1,6 @@
 import { RootState, ThemeState } from '../types'
 import { ActionTree, GetterTree, Module, MutationTree } from 'vuex/types/index.js'
 
-
 const mutations: MutationTree<ThemeState> = {
   SET_THEME(state: ThemeState, theme: string) {
     state.current = theme

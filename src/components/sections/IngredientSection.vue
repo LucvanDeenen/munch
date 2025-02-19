@@ -92,13 +92,13 @@ export default defineComponent({
   computed: {
     filteredIngredients() {
       const filterLower = this.filter.toLowerCase();
-      return this.ingredients.filter(ingredient =>
+      return this.ingredients.filter((ingredient: any) =>
         ingredient.name.toLowerCase().includes(filterLower) ||
         ingredient.type.toLowerCase().includes(filterLower)
       );
     },
     groupedFilteredIngredients() {
-      return this.filteredIngredients.reduce((acc, ingredient) => {
+      return this.filteredIngredients.reduce((acc: any, ingredient: any) => {
         if (!acc[ingredient.type]) {
           acc[ingredient.type] = [];
         }
@@ -107,20 +107,20 @@ export default defineComponent({
       }, {});
     },
     uniqueIngredientNames() {
-      const namesSet = new Set(this.ingredients.map(ingredient => ingredient.name));
+      const namesSet = new Set(this.ingredients.map((ingredient: any) => ingredient.name));
       return Array.from(namesSet);
     },
     uniqueIngredientFilter() {
       this.filterIndex = 0;
       const filterLower = this.filter.toLowerCase();
-      return this.uniqueIngredientNames.filter(ingredient =>
+      return this.uniqueIngredientNames.filter((ingredient: any) =>
         ingredient.toLowerCase().includes(filterLower)
       );
     }
   },
 
   methods: {
-    ...mapActions(['updateSelectedIngredients']),
+    ...mapActions('meals', ['updateSelectedIngredients']),
     scrollTo,
     onSelect(ingredient: any): void {
       const index = this.selected.indexOf(ingredient);
