@@ -2,14 +2,19 @@
   "name": "munch",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "type-check": "vue-tsc --noEmit",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write src/",
+    "test": "vitest run"
   },
   "dependencies": {
     "@mdi/font": "^7.4.47",
-    "firebase": "^11.1.0",
     "vue": "^3.4.38",
     "vue-router": "^4.2.5",
     "vuetify": "^3.5.4",
@@ -17,8 +22,16 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.7",
+    "@vue/eslint-config-typescript": "^14.9.0",
+    "@vue/test-utils": "^2.4.11",
+    "eslint": "^10.6.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-vue": "^10.9.2",
+    "jsdom": "^29.1.1",
+    "prettier": "^3.9.4",
     "typescript": "^5.7.2",
     "vite": "^8.0.16",
+    "vitest": "^4.1.9",
     "vue-tsc": "^2.1.4"
   }
 }

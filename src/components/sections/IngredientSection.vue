@@ -1,6 +1,7 @@
 <template>
   <v-container>
-    <SectionHeader title="Ingredients" icon="mdi-shaker-outline" prev-section="section-home" />
+    <SectionHeader title="Ingredients" icon="mdi-shaker-outline" prev-section="section-home"
+      next-section="section-menu" />
 
     <v-card class="mb-5 pa-3" id="content">
       <div id="header" class="d-flex mb-2">
@@ -58,7 +59,7 @@
       </v-container>
     </v-card>
 
-    <v-btn block @click="scrollTo('section-menu')">Check meals!</v-btn>
+    <v-btn block @click="goToMeals">Check meals!</v-btn>
   </v-container>
 </template>
 
@@ -111,6 +112,8 @@ export default defineComponent({
       return Array.from(namesSet);
     },
     uniqueIngredientFilter() {
+      // TODO: side effect in a computed getter — pre-existing behavior, left as-is pending a UX pass.
+      // eslint-disable-next-line vue/no-side-effects-in-computed-properties
       this.filterIndex = 0;
       const filterLower = this.filter.toLowerCase();
       return this.uniqueIngredientNames.filter((ingredient: any) =>
@@ -121,7 +124,13 @@ export default defineComponent({
 
   methods: {
     ...mapActions('meals', ['updateSelectedIngredients']),
+    ...mapActions('navigation', ['unlockSection']),
     scrollTo,
+    async goToMeals() {
+      await this.unlockSection('section-menu');
+      await this.$nextTick();
+      this.scrollTo('section-menu');
+    },
     onSelect(ingredient: any): void {
       const index = this.selected.indexOf(ingredient);
       if (index === -1) {
@@ -160,7 +169,7 @@ export default defineComponent({
     selectFilteredIngredient() {
       const firstIngredient = this.uniqueIngredientFilter[this.filterIndex];
       if (firstIngredient) {
-        const ingredient = this.ingredients.find(i => i.name.toLowerCase() === firstIngredient.toLowerCase());
+        const ingredient = this.ingredients.find((i: any) => i.name.toLowerCase() === firstIngredient.toLowerCase());
         if (ingredient && !this.selected.includes(ingredient)) {
           this.onSelect(ingredient);
         }

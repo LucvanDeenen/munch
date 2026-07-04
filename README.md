@@ -41,17 +41,35 @@ Munch is a website designed to help you decide what to cook today by allowing yo
 npm install
 ```
 
+### Run the Dev Server
+```bash
+npm run dev
+```
+
 ### Compiles and Minifies for Production
 ```bash
 npm run build
 ```
 
-### Lints and Fixes Files
+### Type-Check
+```bash
+npm run type-check
+```
+
+### Lint
 ```bash
 npm run lint
 ```
-### Customize Configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Lint and Fix Files
+```bash
+npm run lint:fix
+```
+
+### Run Tests
+```bash
+npm run test
+```
 
 ## Hosting and Storage
 Munch-prototype is hosted using Firebase Hosting, providing fast and secure hosting for web applications. Firebase Storage is utilized to manage and store user-generated content, ensuring reliability and scalability.

@@ -1,6 +1,7 @@
 <template>
   <v-container>
-    <SectionHeader title="Meals" icon="mdi-silverware-variant" prev-section="section-ingredients" />
+    <SectionHeader title="Meals" icon="mdi-silverware-variant" prev-section="section-ingredients"
+      next-section="section-recipe" />
 
     <v-card class="mb-5 pa-3" id="content">
 
@@ -13,16 +14,23 @@
         </v-btn>
       </div>
 
-      <h4>Found a total of {{ recipes.length }} Recipes for your ingredients! </h4>
+      <h4 v-if="selectedIngredientNames.length === 0">Showing all {{ meals.length }} recipes</h4>
+      <h4 v-else>{{ matchingRecipeCount }} of {{ meals.length }} recipes match your ingredients</h4>
 
       <v-divider class="mt-2 mx-0"></v-divider>
 
       <v-container class="overflow-y-auto px-2 py-3" id="content">
         <v-card v-for="(meal, key) in filteredRecipes" :key="key" class="mb-5 pa-3 border"
           :class="recipe === meal ? 'bg-secondary' : ''" @click="selectRecipe(meal)">
-          <h3>
-            {{ meal.name }}
-          </h3>
+          <div class="d-flex justify-space-between align-center">
+            <h3>
+              {{ meal.name }}
+            </h3>
+            <v-chip v-if="selectedIngredientNames.length && matchCount(meal) > 0" size="small" variant="tonal"
+              color="primary">
+              {{ matchCount(meal) }} matching
+            </v-chip>
+          </div>
           <v-chip v-for="(ingredient, index) in meal.ingredients" :key="index"
             :class="{ 'text-primary': isIngredientSelected(ingredient) }" class="mt-1">
             {{ ingredient }}
@@ -60,19 +68,24 @@ export default defineComponent({
     ingredients() {
       return this.getSelectedIngredients() ? this.getSelectedIngredients() : [];
     },
+    selectedIngredientNames(): string[] {
+      return Array.from(new Set(this.ingredients.map((ingredient: any) => ingredient.name.toLowerCase())));
+    },
     recipes() {
-      const uniqueIngredientNames = Array.from(new Set(this.ingredients.map((ingredient: any) => ingredient.name.toLowerCase())));
+      if (this.selectedIngredientNames.length === 0) {
+        return this.meals;
+      }
 
-      return this.meals.filter((recipe: any) => {
-        const recipeIngredients = recipe.ingredients.map((ingredient: any) => ingredient.toLowerCase());
-        return recipeIngredients.some((ingredient: any) => uniqueIngredientNames.includes(ingredient));
-      });
+      return [...this.meals].sort((a: any, b: any) => this.matchCount(b) - this.matchCount(a));
+    },
+    matchingRecipeCount(): number {
+      return this.meals.filter((recipe: any) => this.matchCount(recipe) > 0).length;
     },
     filteredRecipes() {
       const filterLower = this.filter.toLowerCase();
       return this.recipes.filter((recipe: any) =>
         recipe.name.toLowerCase().includes(filterLower)
-      ).sort();
+      );
     },
   },
 
@@ -82,14 +95,21 @@ export default defineComponent({
 
   methods: {
     ...mapActions('meals', ['updateSelectedMeal']),
+    ...mapActions('navigation', ['unlockSection']),
     ...mapGetters('meals', ['getSelectedIngredients']),
     scrollTo,
-    setupMeal() {
-      scrollTo('section-recipe');
+    async setupMeal() {
       this.updateSelectedMeal(this.recipe);
+      await this.unlockSection('section-recipe');
+      await this.$nextTick();
+      scrollTo('section-recipe');
     },
     isIngredientSelected(ingredient: string): boolean {
       return this.ingredients.some((item: any) => item.name === ingredient.toLowerCase());
+    },
+    matchCount(recipe: any): number {
+      const recipeIngredients = recipe.ingredients.map((ingredient: any) => ingredient.toLowerCase());
+      return recipeIngredients.filter((ingredient: any) => this.selectedIngredientNames.includes(ingredient)).length;
     },
     selectRecipe(meal: any) {
       if (this.recipe === meal) {
