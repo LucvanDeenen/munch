@@ -5,23 +5,24 @@
       <home-section></home-section>
     </v-section>
 
-    <v-section id="section-ingredients">
+    <v-section v-if="isIngredientsUnlocked" id="section-ingredients">
       <ingredient-section></ingredient-section>
     </v-section>
 
-    <v-section id="section-menu">
+    <v-section v-if="isMealsUnlocked" id="section-menu">
       <meal-section></meal-section>
     </v-section>
 
-    <v-section id="section-recipe">
+    <v-section v-if="isRecipeUnlocked" id="section-recipe">
       <recipe-section></recipe-section>
     </v-section>
-    
+
   </v-container>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
+import { mapGetters } from 'vuex';
 
 import HomeSection from '@/components/sections/HomeSection.vue';
 import IngredientSection from '@/components/sections/IngredientSection.vue';
@@ -35,6 +36,20 @@ export default defineComponent({
     IngredientSection,
     MealSection,
     RecipeSection
+  },
+  computed: {
+    isIngredientsUnlocked(): boolean {
+      return this.isSectionUnlocked('section-ingredients');
+    },
+    isMealsUnlocked(): boolean {
+      return this.isSectionUnlocked('section-menu');
+    },
+    isRecipeUnlocked(): boolean {
+      return this.isSectionUnlocked('section-recipe');
+    }
+  },
+  methods: {
+    ...mapGetters('navigation', ['isSectionUnlocked'])
   }
 });
 </script>

@@ -10,7 +10,7 @@
 
       <h3 class="mt-5">Ingredients</h3>
       <ul class="ml-5">
-        <li v-for="ingredient in meal.ingredients">{{ ingredient }}</li>
+        <li v-for="ingredient in meal.ingredients" :key="ingredient">{{ ingredient }}</li>
       </ul>
 
       <h3 class="mt-5">Shopping</h3>
@@ -25,7 +25,7 @@
 
       <h3 class="mt-5">Guide</h3>
       <ul class="mx-5">
-        <li v-for="step in meal.steps">{{ step }}</li>
+        <li v-for="(step, index) in meal.steps" :key="index">{{ step }}</li>
       </ul>
       
       <v-btn block class="mt-5" @click="toggleGuide = true">cook-a-long</v-btn>

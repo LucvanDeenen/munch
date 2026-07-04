@@ -1,4 +1,4 @@
-import { Module } from 'vuex';
+import { Module, Commit } from 'vuex';
 import { MealState } from '../types';
 
 const state: MealState = {
@@ -16,10 +16,10 @@ const mutations = {
 };
 
 const actions = {
-  updateSelectedIngredients({ commit }: { commit: Function }, ingredients: any[]) {
+  updateSelectedIngredients({ commit }: { commit: Commit }, ingredients: any[]) {
     commit('setSelectedIngredients', ingredients);
   },
-  updateSelectedMeal({ commit }: { commit: Function }, meal: any) {
+  updateSelectedMeal({ commit }: { commit: Commit }, meal: any) {
     commit('setSelectedMeal', meal);
   },
 };
